@@ -4,23 +4,25 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
+/*General styles*/
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #3a3a3a
 }
 
-/*Heading and logo*/
-head {
-    color: #7f7f7f
+/*Header and logo*/
+header {
+    background-color: #7f7f7f;
 }
 
 h1, h2 {
     font-family: "Hind", sans-serif;
     letter-spacing: 2px;
-    colour: #252525;
+    color: #252525;
 }
 
 #logo {
@@ -44,7 +46,7 @@ h1, h2 {
     text-decoration: none;
 }
 
-/* Main */
+/* Main content */
 main {
     background-color: #e7cbae;
 }
