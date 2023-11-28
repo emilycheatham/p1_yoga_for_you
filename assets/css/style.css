@@ -13,6 +13,10 @@ body {
 }
 
 /*Heading and logo*/
+head {
+    color: #7f7f7f
+}
+
 h1, h2 {
     font-family: "Hind", sans-serif;
     letter-spacing: 2px;
@@ -40,3 +44,13 @@ h1, h2 {
     text-decoration: none;
 }
 
+/* Main */
+main {
+    background-color: #e7cbae;
+}
+
+
+/* Footer*/
+footer {
+    background-color: #7f7f7f;
+}
