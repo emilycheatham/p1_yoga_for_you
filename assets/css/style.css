@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Font styles*/
+    /* Font style s*/
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #3a3a3a;
@@ -20,18 +20,20 @@ body {
 
 /*Header and logo*/
 header {
-    background-color: #7f7f7f;
+    background-color: #829460;
+    font: #ffe1e1;
 }
 
 h1, h2 {
     font-family: "Hind", sans-serif;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ffe1e1;
 }
 
 #logo {
     float: left;
     font-size: 250%;
+    color: #ffe1e1;
 }
 
 /* Navigation links */
@@ -60,5 +62,6 @@ main {
 
 /* Footer*/
 footer {
-    background-color: #7f7f7f;
+    background-color: #829460;
+    color: #ffe1e1;
 }
