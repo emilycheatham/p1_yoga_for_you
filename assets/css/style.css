@@ -7,11 +7,15 @@
     box-sizing: border-box;
 }
 
-/*General styles*/
+/* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Font styles*/
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 /*Header and logo*/
@@ -40,6 +44,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    margin-top: 15px;
 }
 
 #menu a {
@@ -49,8 +54,9 @@ h1, h2 {
 /* Main content */
 main {
     background-color: #e7cbae;
+    /* Make main elelment take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
-
 
 /* Footer*/
 footer {
