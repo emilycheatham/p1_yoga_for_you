@@ -135,7 +135,7 @@ footer {
         display: none;
     }
 
-    *logo {
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem; 
@@ -144,11 +144,16 @@ footer {
     /*Main content*/
     main {
         /*Push main contnet down to accomodate larger hearder*/
-        margin-top: 67px;
+        margin-top: 78px;
     }
 }
 
-/* Media query: */
+/* Media query: laptops and larger (992px and up) */ 
+@media screen and (min-width: 992px) {
+        #menu a:hover{
+            border-bottom: 1px solid #3a3a3a;
+        }
 
-
+    }
+}
 /* Media query: */
