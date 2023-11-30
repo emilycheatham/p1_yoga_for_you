@@ -109,8 +109,27 @@ main {
 /* Footer*/
 footer {
     background-color: #829460;
-    color: #ffe1e1;
 }
+
+h3 {
+    color: #e7cbae
+}
+
+#social-networks {
+    text-align: left;
+    display: block;
+    padding: 20px 0;
+}
+
+#social-networks > ul {
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    color: #3a3a3a;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -146,6 +165,9 @@ footer {
         /*Push main contnet down to accomodate larger hearder*/
         margin-top: 78px;
     }
+
+    /* Footer */
+
 }
 
 /* Media query: laptops and larger (992px and up) */ 
@@ -155,5 +177,4 @@ footer {
         }
 
     }
-}
 /* Media query: */
