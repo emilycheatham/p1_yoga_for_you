@@ -118,7 +118,6 @@ h3 {
 #social-networks {
     text-align: left;
     display: block;
-    padding: 20px 0;
 }
 
 #social-networks > ul {
@@ -126,8 +125,12 @@ h3 {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 100%;
     color: #3a3a3a;
+}
+
+footer > div {
+    padding: 5px 0;
 }
 
 
