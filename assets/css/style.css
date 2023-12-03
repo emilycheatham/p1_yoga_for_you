@@ -126,8 +126,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text h2 h3 h4 {
-   color: #3a3a3a;
+#cover-text> h2, #cover-text > h3, #cover-text > h4 {
+    color: #3a3a3a;
 }
 
 /* Footer*/
@@ -192,6 +192,8 @@ footer > div {
         /*Push main contnet down to accomodate larger hearder*/
         margin-top: 78px;
     }
+
+    
 
     /* Footer */
     footer {
