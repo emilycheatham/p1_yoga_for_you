@@ -106,6 +106,13 @@ main {
     margin-top: 64px;
 }
 
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpeg") no-repeat center center/cover;
+}
+
 /* Footer*/
 footer {
     background-color: #829460;
