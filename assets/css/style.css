@@ -130,6 +130,42 @@ main {
     color: #3a3a3a;
 }
 
+/* Why Practice Section */
+h3 {
+    color: #3a3a3a;
+}
+#why-practice {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#why-practice h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-mental-physical h3,
+#benefits-health-ability h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+#benefits-mental-physical > div,
+#benefits-health-ability > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer*/
 footer {
     background-color: #829460;
@@ -196,8 +232,6 @@ footer > div {
     #cover-text {
         width: 60%;
     }
-
-    
 
     /* Footer */
     footer {
