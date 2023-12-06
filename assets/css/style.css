@@ -21,7 +21,7 @@ body {
 /*Header and logo*/
 header {
     background-color: #829460;
-    font: #ffe1e1;
+    color: #ffe1e1;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -166,6 +166,23 @@ h3 {
     margin: 5px 0;
 }
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-img {
+    background: url('../images/benefits-photo.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Footer*/
 footer {
     background-color: #829460;
@@ -226,12 +243,32 @@ footer > div {
     /*Main content*/
     main {
         /*Push main contnet down to accomodate larger hearder*/
-        margin-top: 78px;
+        margin-top: 74px;
     }
 
     #cover-text {
         width: 60%;
     }
+
+    /* Benefots Section */
+    #benefits-mental-physical,
+    #benefits-health-ability {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-mental-physical > div,
+    #benefits-health-ability > div {
+        width: 75%;
+    }
+
+    #benefits-mental-physical > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+
 
     /* Footer */
     footer {
@@ -247,5 +284,12 @@ footer > div {
             border-bottom: 1px solid #3a3a3a;
         }
 
+@media screen and (min width: 1200px) {
+    /* Reasons section*/
+    #benefits {
+        display: flex;
+        flex-direction: row;
     }
-/* Media query: */
+
+    }
+/* Media query:  */
