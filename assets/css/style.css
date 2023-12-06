@@ -250,23 +250,36 @@ footer > div {
         width: 60%;
     }
 
-    /* Benefots Section */
+    /* Benefits Section */
     #benefits-mental-physical,
     #benefits-health-ability {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row;
     }
 
     #benefits-mental-physical > div,
     #benefits-health-ability > div {
-        width: 75%;
+        width: 50%;
     }
 
-    #benefits-mental-physical > div {
-        text-align: end;
+    #benefits-health-ability > div {
+        align-self: flex-start;
+    }
+
+    #benefits-health-ability>div {
         align-self: flex-end;
     }
+
+    #benefits-mental-physical h3,
+    #benefits-health-ability h3 {
+        margin-bottom: 0px;
+        text-align: center;
+        color: #3a3a3a;
+        }
+
+    #benefits hr {
+        border-top: 0px none;
+        }
 
 
 
