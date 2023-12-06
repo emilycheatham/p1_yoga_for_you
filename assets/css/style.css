@@ -183,6 +183,44 @@ h3 {
     max-height: 300px;
 }
 
+/* Yoga Offered section*/
+#yoga-offered {
+    background-color: rgba(238, 238, 238) ;
+    /*indent the background so it's not taking up the whole width*/
+    width: 90%;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #3a3a3a;
+}
+
+#yoga-offered h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#yoga-type-1 h3,
+#yoga-type-2 h3,
+#yoga-type-3 h3, {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+#yoga-type-1 > div,
+#yoga-type-2 > div,
+#yoga-type-3 > div, {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+
+
 /* Footer*/
 footer {
     background-color: #829460;
@@ -306,6 +344,11 @@ footer > div {
         #benefits-mental-physical,
         #benefits-health-ability {
             flex-direction: column;
+            width: 100%;
+        }
+
+        #benefits-mental-physical> div,
+        #benefits-health-ability > div {
             width: 100%;
         }
    
