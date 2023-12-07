@@ -189,11 +189,15 @@ h3 {
     /*indent the background so it's not taking up the whole width*/
     width: 90%;
     margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #yoga-offered h2 {
     color: #3a3a3a;
     text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 #yoga-offered h3 {
@@ -202,10 +206,17 @@ h3 {
     margin-top: 20px;
 }
 
-#yoga-offered hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+#yoga-offered  div {
+    padding: 15px;
+    /* Handles responsivity without need for media query*/ 
+    display: flex;
+    flex-wrap: wrap;
+    /* This will not wrap on screens of less than 400px.
+    Each dive will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
 }
+
 
 
 
