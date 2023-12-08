@@ -244,12 +244,31 @@ h3 {
 }
 
 
+/* About Us Page*/
+/*Our Instructors*/
+.instructor-img {
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
+#our-team {
+    text-align: center;
+}
 
+#our-team h2 {
+    padding-bottom: 20px;
+}
 
+#our-team h3 {
+    color: #829460;
+}
 
-
-
+#our-team > div {
+    padding-bottom: 20px;
+}
 
 
 /* Footer*/
