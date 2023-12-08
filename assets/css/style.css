@@ -228,7 +228,8 @@ h3 {
 }
 
 #yoga-offered-special div {
-    background-color: (0, 0, 0, 0.7);
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row*/
