@@ -369,13 +369,18 @@ footer > div {
         border-top: 0px none;
         }
 
+    /* Meet the Team*/
+    #instructors div {
+        width: 33%;
+        display: flex;
+        justify-content: space-around;
+    }
 
     /* Footer */
     footer {
         display: flex;
         justify-content: space-around;
     }
-
 }
 
 /* Media query: laptops and larger (992px and up) */ 
