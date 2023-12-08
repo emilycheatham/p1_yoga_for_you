@@ -220,14 +220,18 @@ h3 {
 
 
 /*Event Classes Section*/
-#yoga-offered-special {
+#yoga-offered-special h2 {
+    text-align :center;
+}
+
+#special-details {
     background: url('../images/other\ classes.jpg') no-repeat center/cover;
     /*Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
 
-#yoga-offered-special div {
+#special-details div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
@@ -238,6 +242,8 @@ h3 {
     /* Creates a grid of classes over the background image */
     border: 2px solid white;
 }
+
+
 
 
 
