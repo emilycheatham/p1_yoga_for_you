@@ -271,8 +271,43 @@ h3 {
 }
 
 /*Our classes section*/
-#classes h3 {
-    color: #829460;
+#classes {
+    background-color: #829460;
+}
+
+#classes h2 {
+    text-align: center;
+}
+
+#classes p {
+    text-align: center;
+    color: #ffe1e1;
+}
+
+#timetable {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.timetable {
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #3a3a3a;
+    border-style: solid;
+
+    
+}
+
+.timetable td,
+.timetable th {
+    border-width: 2px;
+    border-color: #3a3a3a;
+    border-style: solid;
+    padding: 3px;
+}
+
+.timetable td {
+    width: auto;
 }
 
 
