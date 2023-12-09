@@ -270,6 +270,11 @@ h3 {
     padding: 20px;
 }
 
+/*Our classes section*/
+#classes h3 {
+    color: #829460;
+}
+
 
 /* Footer*/
 footer {
