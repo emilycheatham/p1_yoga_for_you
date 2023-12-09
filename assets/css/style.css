@@ -266,8 +266,8 @@ h3 {
     color: #829460;
 }
 
-#our-team > div {
-    padding-bottom: 20px;
+#instructors div {
+    padding: 20px;
 }
 
 
@@ -370,9 +370,9 @@ footer > div {
         }
 
     /* Meet the Team*/
-    #instructors div {
-        width: 33%;
+    #instructors {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
