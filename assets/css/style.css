@@ -312,6 +312,10 @@ h3 {
     width: auto;
 }
 
+tr:hover {
+    background-color: #ffe1e1;
+}
+
 /*Event classes section*/
 #event-classes  p {
     color: #fafafa;
