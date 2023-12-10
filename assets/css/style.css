@@ -273,6 +273,7 @@ h3 {
 /*Our classes section*/
 #classes {
     background-color: #829460;
+    padding: 20px;
 }
 
 #classes h2 {
@@ -311,8 +312,8 @@ h3 {
 }
 
 /*Event classes section*/
-#event-classes h3 {
-    color: #829460;
+#event-classes  p {
+    color: #fafafa;
 }
 
 .grid {
@@ -334,13 +335,13 @@ h3 {
 }
 
 .img-wrapper > .content {
+    justify-content: center;
+    align-items: center;
     position: absolute;
     inset: 0;
     font-size: 1.5rem;
     padding: 1rem;
-    background: rgba(238, 238, 238, 0.4);
-    justify-content: center;
-    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .img-wrapper > img,
