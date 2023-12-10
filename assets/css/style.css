@@ -371,7 +371,7 @@ tr:hover {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 40px;
+    padding: 20px 20% 20px 20%;
 }
 
 #signup-form {
@@ -400,13 +400,14 @@ tr:hover {
 .radio-buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 
-.checkboxes {
+.details {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    height: auto;
+    padding: 5px 0;
 }
 
 #mail_list {
@@ -547,6 +548,12 @@ footer > div {
 
     #timetable {
         overflow: hidden;
+    }
+
+    /* Sign Up Form */
+    #yoga-selector {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 
