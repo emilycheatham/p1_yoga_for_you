@@ -293,7 +293,6 @@ h3 {
 
 .timetable {
     width: 100%;
-    position: center;
     border-collapse: collapse;
     border-width: 2px;
     border-color: #3a3a3a;
@@ -479,12 +478,7 @@ footer > div {
         display: flex;
         flex-direction: row;
     }
-    #pricing {
-        position: center;
-        float: left;
-        padding: 5px;
-    }
-
+    
     .timetable {
         width: 100%;
         float: right;
