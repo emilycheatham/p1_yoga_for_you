@@ -311,9 +311,13 @@ h3 {
 }
 
 /*Event classes section*/
-#evernt-classes {
+#event-classes h3 {
+    color: #829460;
+}
+
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .img-wrapper {
@@ -324,8 +328,6 @@ h3 {
 .img-wrapper > img {
     display: block;
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
@@ -334,8 +336,9 @@ h3 {
 .img-wrapper > .content {
     position: absolute;
     inset: 0;
+    font-size: 1.5rem;
     padding: 1rem;
-    background: rgba (255, 255, 255, .4)
+    background: rgba(238, 238, 238, 0.4);
     justify-content: center;
     align-items: center;
 }
@@ -345,12 +348,16 @@ h3 {
     transition: 200ms ease-in-out;
 }
 
+.img-wrapper:hover > img.blur {
+    filter: blur(5px);
+}
+
 .img-wrapper> .content.fade {
-    opactity: 0;
+    opacity: 0;
 }
 
 .img-wrapper:hover>.content.fade {
-    opactity: 1;
+    opacity: 1;
 }
 
 
