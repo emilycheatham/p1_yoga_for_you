@@ -36,9 +36,79 @@
         </nav>
     </header>
 
-    <!-- xxx -->
+    <!-- Sign up -->
     <main>
-        
+        <section id="signup">
+            <form id="signup-form" method="POST" action:"">
+            <h2>Sign Up or Enquire For More Information</h2>
+            <label for="first_name">First Name: </label>
+            <input type="text" name="first_name" id="first_name" class="text-type" required>
+            <br>
+            <label for="last_name">Last Name: </label>
+            <input type="text" name="last_name" id="last_name" class="text-type" required>
+            <br>
+            <label for="email_address">Email Address: </label>
+            <input type="email" name="email_address" id="email_address" class="text-type" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="sign_up">Sign Up</label>
+                    <input type="radio" name="enqiry_type" id="sign_up" value="sign_up" required>
+                </div>
+                <div>
+                    <label for="enquiry">Enquiry</label>
+                    <input type="radio" name="enqiry_type" id="enquiry" value="enquiry" required>
+                </div>
+            </div>
+            <div id="checkboxes">
+                <div>
+                    <label for="align">Align</label>
+                    <input type="checkbox" name="yoga_type" id="align" value="align">
+                </div>
+                <div>
+                    <label for="hatha">Hatha</label>
+                    <input type="checkbox" name="yoga_type" id="hatha" value="hatha">
+                </div>
+                <div>
+                    <label for="vinyasa">Vinyasa</label>
+                    <input type="checkbox" name="yoga_type" id="vinyasa" value="vinyasa">
+                </div>
+                <div>
+                    <label for="flow">Flow</label>
+                    <input type="checkbox" name="yoga_type" id="flow" value="flow">
+                </div>
+                <div>
+                    <label for="yin">Yin</label>
+                    <input type="checkbox" name="yoga_type" id="yin" value="yin">
+                </div>
+                <div>
+                    <label for="prenatal">Prenatal</label>
+                    <input type="checkbox" name="yoga_type" id="prenatal" value="prenatal">
+                </div>
+                <div>
+                    <label for="hot_yoga">Hot Yoga</label>
+                    <input type="checkbox" name="yoga_type" id="hot_yoga" value="hot_yoga">
+                </div>
+                <div>
+                    <label for="pet_yoga">Pet Yoga</label>
+                    <input type="checkbox" name="yoga_type" id="pet_yoga" value="pet_yoga">
+                </div>
+                <div>
+                    <label for="aerial_yoga">Aerial Yoga</label>
+                    <input type="checkbox" name="yoga_type" id="aerial_yoga" value="aerial_yoga">
+                </div>
+            </div>
+            <div id="details">
+                <label for="text_area" id="text_area">Extra Details:</label>
+                <textarea name="text_area" id="text_area" placeholder="Would you like to add any more details? eg. dates, medical requirements, skill level" rows="10" cols="40"></textarea>
+            </div>
+            <div id="mail_list">
+                <label for="mail">Tick To Join Our Mail List: </label>
+                <input type="checkbox" name="mail" id="mail" value="mail">
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
