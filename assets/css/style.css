@@ -310,6 +310,49 @@ h3 {
     width: auto;
 }
 
+/*Event classes section*/
+#evernt-classes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+}
+
+.img-wrapper {
+   position: relative;
+   overflow: hidden; 
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    padding: 1rem;
+    background: rgba (255, 255, 255, .4)
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper> .content.fade {
+    opactity: 0;
+}
+
+.img-wrapper:hover>.content.fade {
+    opactity: 1;
+}
+
 
 /* Footer*/
 footer {
