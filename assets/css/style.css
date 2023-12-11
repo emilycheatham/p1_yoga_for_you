@@ -438,7 +438,7 @@ tr:hover {
     text-align: center;
 }
 .submit {
-    margin-top: 2opx;
+    margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
@@ -604,13 +604,12 @@ footer > div {
     }
 
     /* Sign Up Form */
-        #yoga-selector {
+    #yoga-selector {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     .details {
-        box-align: center;
         width: 100%;
         height: auto;
         padding: 5px 0;
