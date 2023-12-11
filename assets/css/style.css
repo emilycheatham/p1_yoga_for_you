@@ -456,6 +456,26 @@ tr:hover {
     text-decoration: underline 1px solid;
 }
 
+/* Thank you page */
+
+#thank-you {
+    /*indent the background so it's not taking up the whole width*/
+    text-align: center;
+}
+
+#thank-you h2 {
+    padding: 20px;
+}
+
+#thank-you div {
+    padding: 20px;
+}
+
+#return-to-home a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Footer*/
 footer {
     background-color: #829460;
@@ -520,7 +540,7 @@ footer > div {
 
     /*Main content*/
     main {
-        /*Push main contnet down to accomodate larger hearder*/
+        /*Push main content down to accomodate larger hearder*/
         margin-top: 74px;
     }
 
