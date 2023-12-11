@@ -332,7 +332,7 @@ tr:hover {
 #event-classes  p {
     color: #fafafa;
 }
-
+    /*.grid and .image-wrapper applied to gallery.html content too*/
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -377,6 +377,12 @@ tr:hover {
 .img-wrapper:hover>.content.fade {
     opacity: 1;
 }
+
+/* Gallery Page */
+#gallery p {
+    color: #fafafa;
+}
+
 /*Sign Up Page*/
 /* Form */
 #signup {
