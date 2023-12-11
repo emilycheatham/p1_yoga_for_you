@@ -364,7 +364,7 @@ tr:hover {
 .img-wrapper:hover>.content.fade {
     opacity: 1;
 }
-
+/*Sign Up Page*/
 /* Form */
 #signup {
     background-image: url("../images/image\ 1.jpeg");
@@ -384,6 +384,10 @@ tr:hover {
     margin-bottom: 20px;
     color: #ffe1e1;
     text-align: center;
+}
+
+#signup-form > div {    
+    padding: 10px;
 }
 
 .text-input {
@@ -426,6 +430,11 @@ tr:hover {
 .submit-button {
     text-align: center;
     padding-top: 20px;
+}
+
+.submit-button button:hover {
+    transform: scale(1.2);
+    text-decoration: underline 1px solid;
 }
 
 /* Footer*/
@@ -551,11 +560,17 @@ footer > div {
     }
 
     /* Sign Up Form */
-    #yoga-selector {
+        #yoga-selector {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .details {
+        box-align: center;
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+    }
 
     /* Footer */
     footer {
