@@ -195,29 +195,30 @@ h3 {
 
 
 /* Yoga Offered section*/
-#yoga-offered {
-    background-color: rgba(238, 238, 238) ;
+#yoga-offered-text {
+    background-color: rgba(238, 238, 238);
     /*indent the background so it's not taking up the whole width*/
     width: 90%;
-    margin: auto;
+    margin: 40px;
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
-#yoga-offered h2 {
+#yoga-offered-text h2 {
     color: #3a3a3a;
     text-align: center;
     margin: 20px;
     width: 100%;
 }
 
-#yoga-offered h3 {
+#yoga-offered-text h3 {
     color: #829460;
     text-align: center;
     margin-top: 20px;
 }
 
-#yoga-offered  div {
+#yoga-offered-text  div {
     padding: 15px;
     /* Handles responsivity without need for media query*/ 
     display: flex;
@@ -227,6 +228,8 @@ h3 {
     flex-basis: 200px;
     flex-grow: 1;
 }
+
+
 
 /* Redirection Buttons */
 #home-redirect-button a {
