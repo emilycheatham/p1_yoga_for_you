@@ -455,6 +455,7 @@ tr:hover {
     width: 100%;
     height: auto;
     padding: 5px 0;
+    overflow: hidden;
 }
 
 #mail_list {
