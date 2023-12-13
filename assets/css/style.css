@@ -516,6 +516,10 @@ h3 {
     list-style-type: none;
 }
 
+#social-networks > ul {
+    display: inline;
+}
+
 #social-networks i {
     font-size: 100%;
     color: #3a3a3a;
