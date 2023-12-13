@@ -433,6 +433,11 @@ tr:hover {
     padding: 10px;
 }
 
+.text-type {
+    display: block;
+    width: 100%;
+}
+
 .text-input {
     background: transparent;
     color: #3a3a3a;
@@ -518,18 +523,23 @@ h3 {
     list-style-type: none;
 }
 
-#social-networks > ul {
-    display: inline;
+#social-networks li {
+    display: inline-block;
+    padding: 10px;
 }
 
 #social-networks i {
-    font-size: 100%;
+    font-size: 150%;
     color: #3a3a3a;
 }
 
 #contact-us a {
     text-decoration: none;
     color: inherit;
+}
+
+#contact-us p {
+    padding: 10px;
 }
 
 footer > div {
