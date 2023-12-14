@@ -259,6 +259,7 @@ h3 {
 /*Event Classes Section*/
 #yoga-offered-special h2 {
     text-align :center;
+    padding-top: 40px;
 }
 
 #special-details {
@@ -415,12 +416,14 @@ tr:hover {
     background-position: 75%;
     flex-grow: 1;
     padding: 20px 20% 20px 20%;
+    font-size: 110%;
 }
 
 #signup-form {
     color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    font-size: 110%;
 }
 
 #signup-form > h2 {
@@ -468,9 +471,8 @@ tr:hover {
     text-align: center;
 }
 
-
-.submit-button,
-.submit-button a {
+.link-button,
+.submit-button button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -484,6 +486,15 @@ tr:hover {
 .submit-button button:hover {
     transform: scale(1.2);
     text-decoration: underline 1px solid;
+}
+
+.link-button a:hover { 
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.submit-button {
+    text-align: center;
 }
 
 /* Thank you page */
