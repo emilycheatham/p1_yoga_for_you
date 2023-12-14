@@ -467,16 +467,16 @@ tr:hover {
     padding-top: 20px;
     text-align: center;
 }
-.submit {
+
+
+.submit-button,
+.submit-button a {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: #829460;
     color: #e7cbae;
-}
-
-.submit-button {
     text-align: center;
     padding-top: 20px;
 }
