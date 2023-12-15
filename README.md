@@ -26,7 +26,7 @@ This site is based on a fictitious company. The project was developed for projec
 [The live website is available here](https://emilycheatham.github.io/p1_yoga_for_you/)
 ___
 
-# UX Design
+# User Experience (UX)
 
 ## User stories
 
@@ -121,7 +121,7 @@ ___
 
 #### User Goal
     >
-    > - To be able to contact the studio with an enqiiry.
+    > - To be able to contact the studio with an enqiry.
     > - To be able to sign up to a class.
     > - To join the mailing list.
 #### Website Goal
@@ -139,40 +139,41 @@ ___
 
 #### User Goal
     >
-    > - To be able to contact the studio with an enqiiry.
-    > - To be able to sign up to a class.
-    > - To join the mailing list.
+    > - To be provided an acknowledgment that the request/sign up has been sent.
+    > - To know how if and long it will be until you get a response.
+    > - To know how to expect the resonse - via e-mail.
+    > - To be able to navigate back to the home page
     >
 #### Website Goal
     >
-    > - Provide a clear way for both new customers and existing members to contact the studio to enquire or sign up for a class.
-    > - To provide option to sign up to the mailing list.
+    > - Provide an acknowledgement.of receipt of form.
+    > - Provide a clear link back to the index.html page.
 
 ___
 
 ## Wireframes
 
-### **Home**
+### **Home Page**
 
-![Home-wireframe (full size)](assets/images/readme/wireframes/home-wire.webp)
+![Home-wireframe](assets/images/readme/Homepage.png)
 
-### **Philosofy**
+### **About Us Page**
 
-![Philosofy-wireframe (full size)](assets/images/readme/wireframes/philosofy-wire.webp)
+![Aboutus-wireframe](assets/images/readme/AboutUs.png)
 
-### **Meetups**
+### **Gallery Page**
 
-![Meetups-wireframe (full size)](assets/images/readme/wireframes/meetups-wire.webp)
+![Meetups-wireframe](assets/images/readme/Gallery.png)
 
-### **Signup**
+### **Sign Up Page**
 
-![Signup-wireframe (full size)](assets/images/readme/wireframes/signup-wire.webp)
+![Signup-wireframe](assets/images/readme/signUp.png)
 
 ___
 
 ## Design
 
-As Sofing is a completely new thing, the design shapes future brand recognition. The project's design springs from the ethos and values of Sofing: it is cheerful, bold and calm at the same time. It seems to be contrasting purposes, but it is a conscious intention to make it a little contradictory for comical effect as a part of mocking existing cliches. It is somewhat a combination of a stereotypical small business, gym and furniture store website as I see it.
+Yoga is renound for aiding mental health, and being a time to be calm, focused and in the now. As a result, the project's design arises from this theme. It aims to be calming and peaceful. It aims to have enough contrast to draw the viewer's eye to intended element, and be contrasting enought to be accessible for all users, whilst maintiaing the calming ethos. 
 
 ### Colour Scheme
 
