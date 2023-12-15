@@ -499,6 +499,10 @@ tr:hover {
     border-bottom: 1px solid;
 }
 
+.link-button:hover {
+    transform: scale(1.2);
+}
+
 .submit-button {
     text-align: center;
 }
