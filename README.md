@@ -2,141 +2,542 @@
 
 
 
-This project is a static website which promotes a fictional Yoga company, Yoga For You. It aims to provide information to the user about what types of yoga the company offers, who the instructors are, the times of the classes, and testimonials. It allows for the user to sign up or enquire more about the classes the company offers.
+Yoga For You is a static website which is designed to be responsive, to allow visitors to view on a range of devices. It allows visitors to find out about the yoga studio. 
 
-The website it built using HTML and CSS as part of Project 1 for Code Institutes Diploma in Full Stack Development. 
 
-https://emilycheatham.github.io/p1_yoga_for_you/
 
 ![Website Mock Up](assets/images/readme/mockup.png)
 
-## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
 
-- __Navigation Bar__
+# Purpose
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home, About Us, Gallery and Sign Up pages. The navigation bard is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-  - The bar is responsive to smaller devices ()
+This project is a static website which promotes a fictional Yoga company, Yoga For You. It aims to provide information to the user about what types of yoga the company offers, who the instructors are, the times of the classes, and testimonials. It allows for the user to sign up or enquire more about the classes the company offers.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+The core purposes of the website:
 
-- __The landing page image__
+- introduce the yoga studio to customers
+- allow viewsers to see what types of yoga are offered at the studio
+- to allow ways for viewers to contact the studio.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+This site is based on a fictitious company. The project was developed for project 1 HTML and CCS unit of Code Institute's Disploma in Full Stack Software Development.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+[The live website is available here](https://emilycheatham.github.io/p1_yoga_for_you/)
+___
 
-- __Club Ethos Section__
+# UX Design
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+## User stories
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+### As a **first time user**
 
-- __Meetup Times section__
+- I want to be able to navigate the wste easily to find the content I need.
+- I want to know where the studio is.
+- I want to know what types of yoga are offered and which one would suit me.
+- I want to know the cost of the classes.
+- I want to know when the classes are offered to see which one would suit me.
+- I want to know what things I need to bring.
+- I want to be able to contact the studio.
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+### As a **returning** and a **frequent user**
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- I want to find I want to find up-to-date information about class times.
+- I want to be able enquire about classes or sign up to classes.
+- I want to be able to contact the studio.
 
-- __The Footer__
+### All users want to be able to access and comfortably view the website on mobile devices
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+___
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+## Structure
 
-- __Gallery__
+### Home Page
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+- 
+- Introduces the movement and its "selling points" on the first screen.
+- Provides a complete overview of the topic: each page of the website is represented by its own block.
+- Grabs the user's attention and grips it with bold design and entertaining content.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+#### User Goal
+    >
+    > - Understand the main purpose of the website.
+    > - Preview all the sections of the website.
+    > - Easily navigate and interact with the website.
+    > - Be amused.
+    >
+#### Website Goal
+    >
+    > - Convey selling points and ethos.
+    > - Interest and engage the user.
+    > - Present the user a preview of all content sections.
+    > - Entertain the user.
+    > - Initiate future engagement, such as following on social media, joining the club, attending meetups etc.
 
-- __The Sign Up Page__
+### Philosofy Page
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- Delivers the movement's ethos and purpose in detail.
+- Justifies and redeems doing nothing.
+- Includes an easter egg for entertainment.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+#### User Goal
+    >
+    > - Obtain information about the movement philosophy and ethos.
+    > - Be amused.
+    >
+#### Website Goal
+    >
+    > - Convey the movement ethos.
+    > - Gain the users trust and sympathy.
+    > - Convince the user to join.
+    > - Entertain the user and make them smile.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+### Meetups Page
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Provides up-to-date information about local meetups and practice sessions.
+- Allows the user to contact local representatives.
 
-### Features Left to Implement
+#### User Goal
+    >
+    > - Find local meetups and regular practice sessions.
+    > - Check the schedule.
+    > - Be able to contact local representatives.
+    >
+#### Website Goal
+    >
+    > - Provide information about local meetups and practice sessions.
+    > - Make it easy for the user to find one and contact local representatives.
 
-- Another feature idea
+### Signup Page
 
-## Testing
+- Allows the user to join the club and get access to special programs and discounts.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+#### User Goal
+    >
+    > - Join the club to access unique content and special offers.
+    >
+#### Website Goal
+    >
+    > - Provide a simple and accessible way to join the club.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Meetups
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+It was decided to take this section to another website (supposedly existing) because it is intended as a commercial project and contains plenty of information, which deserves a separate platform. However, it was considered reasonable to include it in the menu to inform about it because the movement is new, and users can not assume what features it includes. So it takes the user to the website of **Sofing Bootcamp**, where the user may obtain all the relevant information about training.
+___
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## Wireframes
 
-### Validator Testing
+### **Home**
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+![Home-wireframe (full size)](assets/images/readme/wireframes/home-wire.webp)
 
-### Unfixed Bugs
+### **Philosofy**
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+![Philosofy-wireframe (full size)](assets/images/readme/wireframes/philosofy-wire.webp)
 
-## Deployment
+### **Meetups**
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+![Meetups-wireframe (full size)](assets/images/readme/wireframes/meetups-wire.webp)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+### **Signup**
 
-The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+![Signup-wireframe (full size)](assets/images/readme/wireframes/signup-wire.webp)
 
-## Credits
+___
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+## Design
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+As Sofing is a completely new thing, the design shapes future brand recognition. The project's design springs from the ethos and values of Sofing: it is cheerful, bold and calm at the same time. It seems to be contrasting purposes, but it is a conscious intention to make it a little contradictory for comical effect as a part of mocking existing cliches. It is somewhat a combination of a stereotypical small business, gym and furniture store website as I see it.
 
-### Content
+### Colour Scheme
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+![Palette](assets/images/readme/palette.png)
 
-### Media
+A seemingly unconventional colour palette choice serves to embody a maverick component, mock existing cliches and challenge the rules (such as colour combination), just as Sofing does by turning doing nothing into a sport.
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+#### **Shades of Whitesmoke**
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+represent calm, air and light; two shades are used for volume effect.  
+> ![white1](assets/images/readme/white1.png) #efefef (Background Colour, Text Colour on dark background);
 
-## Other General Project Advice
+> ![white2](assets/images/readme/white2.png) #f8f8f8 (Background Colour, Borders).
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+#### **Shades of Charcoal Grey**
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
+are cool, neutral and balanced, just like Sofing wants its practitioners to be. It is also known as a sophisticated colour. It is used to bring some contrast and draw attention to the ethos block on the home page. Several shades are used to avoid excessive contrast and heavy headings but provide accessibility.
+> ![grey2](assets/images/readme/grey2.png) #333333 (Background Colour);
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+> ![grey3](assets/images/readme/grey3.png) #515151 (Default Text Colour);
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+> ![grey1](assets/images/readme/grey1.png) #6a6a6a (Headings, Borders).
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+#### **Coral**
+
+represents friendliness, cheerfulness and boldness. Moreover, it seems to be one of the typical sofa colours and it refers to the [famous couch from Friends tv series](https://www.texomashomepage.com/wp-content/uploads/sites/41/2019/09/friends-orange-couch.jpg).
+> ![coral](assets/images/readme/coral.png) #e06666 (Background Colour).
+
+#### **Reef**  
+
+represents trust and tranquillity. In fact, [57% of men and 35% of women say blue is their favourite colour](https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/03/24214633/website-color-palettes-35.png), it is the most common “favourite” colour among the majority of the population. So, as I want to appeal to a broad audience, I decided to implement it.
+> ![reef](assets/images/readme/reef.png) #a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings).
+
+### Typography
+
+[Koulen](https://fonts.google.com/specimen/Koulen) was intended to be used for logo and headings, however, it turned out to be too loud and intense if used for all headings, and also it compromised the legibility of many headings. Therefore, it was decided to limit its implementation and prefer softer and more neutral font for most of the headings throughout the website.
+
+[Montserrat](https://fonts.google.com/specimen/Montserrat) was chosen for this purpose. It is neutral and easy to read.
+
+[Lato](https://fonts.google.com/specimen/Lato) was chosen for body text as it is light and easy to read.
+
+### Images
+
+The images in this project were sourced from [Unsplash](https://unsplash.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase the aesthetic impact of the design.
+
+### Visual Effects
+
+#### Shadows
+
+As the Home Page consists of multiple colourful overlapping blocks, it was important to add volume and make the content easier to perceive so the viewer's eye doesn't have to focus on understanding spatial relationships between elements, which might be daunting. However, to provide better performance on mobile devices, it was implemented only for screens larger than 992px.
+
+#### Logo and Page Headings Gradient
+
+Sofing movement does not have a logo at the moment. Hence, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the colour palette.
+
+#### Blocks with CTA
+
+Each block of the Home Page that we want users to interact with and that contains a Call To Action, such as "join the club" or "follow the link", slightly grows (3%) whilst hovered over with a mouse. It provides a stimulating visual effect and draws users' attention even if hovered over with a mouse by accident whilst scrolling. The effect was implemented only for screens larger than 992px to provide better performance on mobile devices.  
+
+#### Buttons
+
+Each button offers a similar growing effect described above combined with a change of its background colour: it is blue by default, and it turns subtle green hovered over with a mouse. The green colour was opted for because it is known to be the [best colour for effective CTA buttons](https://www.wordstream.com/blog/ws/2015/02/20/call-to-action-buttons). To provide better performance on mobile devices, it was implemented only for screens larger than 992px.
+
+#### Links
+
+Due to the bold design and abundance of content on the Home Page, it seemed to be necessary to draw additional attention to the links. When being hovered over with a mouse, links change the text colour and the background colour (depending on the parent block design), and the change is executed with an animated effect - "running" from left to right. To provide better performance on mobile devices, it was implemented only for screens larger than 992px.
+
+#### Navbar Hover effect
+
+The navbar includes a hover-over effect to make the experience more interactive and navigation more intuitive. When the user engages with the link or hovers over the link, its background colour changes to light blue to subtly highlight the item without compromising legibility.
+___
+
+# Features
+
+## Existing Features
+
+- **Navigation bar**
+
+![Nav1](assets/images/readme/nav1.png)
+
+Each page has a full responsive sticky navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Philosofy, Training, Meetups and Signup pages. It retains an identical layout throughout the website across all devices to ensure **simple and intuitive navigation**. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.
+
+![Nav1](assets/images/readme/nav2.png)
+![Nav1](assets/images/readme/nav3.png)
+
+For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semitransparent background.  
+
+- **Hero image**
+
+![Hero](assets/images/readme/hero.png)
+
+This section is the first thing the user sees opening each page (apart from the Signup page, as it's organised differently due to little content), it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. On the Home page, it also includes overlayed cards with key selling points to help the user understand the purpose of the website.
+
+![Hero2](assets/images/readme/hero-philosofy.png)
+
+![Hero3](assets/images/readme/hero-meetups.png)
+
+On the other pages, it does not include any overlay. All images are selected to correlate with the website's colour palette and contribute to the aesthetic impact of the design, delivering semantics of the section and achieving purposes such as comical effect. Every image is followed by the section heading, executed in the colour scheme of the block representing this page on the Home page. Colour coding helps the user build associations and follow the content.
+
+- **Ethos section**
+
+![Ethos](assets/images/readme/ethos.png)
+
+The ethos section will introduce the user to the concept of Sofing as it is something previously not known. The user will be introduced to the moto, given a little preview of philosofy statements and invited to learn more to the Philosofy page if the user finds the preview appealing.
+
+- **Training section**
+
+![Training](assets/images/readme/training.png)
+
+This section tells the user about the opportunities in the world of Sofing and leads to a separate website for [the reason described above](#meetups-page). Because this concept is new, the user may not assume what features it includes and does not have particular expectations.
+
+- **Activities section**
+
+![Activities](assets/images/readme/activities.png)
+
+This section will allow the user to see the activities the movement organises. It invites the user to engage in different ways, increasing the possibility of it happening. "Sofa Shopping" invites the user to shop at our partner's website (During the testing, it demonstrated a very positive response from the users - some of them listed the Shopping website as the most memorable experience). There is also an opportunity to be paid for referral traffic. "Local Practice" leads to the Meetups page of the website, where users can obtain information about regular practice sessions in different locations. "Networking" leads to Facebook, where users could search Sofing events in their area.
+
+- **Signup section**
+
+![Signup-index](assets/images/readme/signup-index.png)
+
+This section will explain the benefits of club membership and, combined with the experience of the journey through the Home page, will motivate the user to join. It contains interactive elements and a CTA button to stimulate the user to join.
+
+- **Footer**
+
+![Footer](assets/images/readme/footer.png)
+
+The Footer contains the links to the social media and allows the user to continue engagement with the movement on various platforms.
+
+- **Philosofy page**
+
+![Philosofy](assets/images/readme/philosophy.png)
+
+This page contains detailed information about the movement philosophy (the different spelling is used as a joke to improve branding) to convince the user to get involved. A CTA button at the bottom was considered, but then it was decided to remove it because the project is non-commercial and intrusive CTA buttons do not correlate with the spirit of the Philosofy page.
+
+- **Meetups page**
+
+![Meetups](assets/images/readme/meetups-table.png)
+
+This page will allow users to find up-to-date information about practice sessions in different locations. It includes the schedule, the location (leads to a page of the venue on Google Maps) and a clickable phone number, so you can call right away from the page without copying and pasting the number.
+
+- **Signup page**
+
+![Signup](assets/images/readme/signup.png)
+
+This page will allow the user to sign up to Sofing and become a part of the community. The page contains the form, where the user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about the movement's activities and events.
+
+- **Easter egg**
+
+![Easter](assets/images/readme/easter.png)
+
+The Philosofy page includes an easter egg. It appears when hovered over with a mouse over the hero image somewhat below the "Philosofy" link in the Navbar, so the user might come across it whilst scrolling. Implemented for screens above 1200px.
+
+## Responsive layout
+
+The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. However, it was decided to omit the image for the Signup page for the mobile version, as the Signup form takes up all the screen space on mobile devices.
+
+The choice of breakpoints was based on different aspects, such as typical devices' screen sizes and the intention to provide the best possible presentation of the content for all screen sizes. 768px breakpoint is meant to hit the iPad mini; 992px is quite common to signify the transition to laptops, and, content-wise, it proved to be reasonable. 1200px is not a typical choice, but it was preferred based on the content layout. Media query for screens above 1200px also contains fixed width for many blocks, as, for the convenience of the user and maintaining design aesthetics, it was decided to stop the content from further expanding.
+
+Flexbox and Grid, depending on the content of the block, were used to allow the website to expand and shrink responsively to a device screen size providing each page's design integrity. Elements must maintain their respective position (or change if intended for more efficient representation), they do not overlap or misalign, and the content does not overflow.
+
+## Feature Considerations
+
+### Signup form processing
+
+Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowledge of SQL and Python, the input could be stored, processed, analysed and used to provide the user with a personalised quality experience.
+
+### Popup preview of Google Maps
+
+Currently, on the Meetups page, the location link leads the user to Google Maps. By including JS we could provide the user with the necessary information in a popup window without leaving the website.
+
+### Gallery aggregated from social media by hashtag
+
+Currently, the website does not have any gallery. The heart of Sofing is people, so having a gallery block on the Home page aggregated from social media might be a glorious live representation of the movement.
+
+___
+
+# Technologies
+
+- HTML to accomplish the structure of the website.
+- CSS to style the website.
+- [Gitpod](https://gitpod.io/) IDE to develop the website.
+- [GitHub](https://GitHub.com/) to host the source code and GitHub Pages to deploy and host the live site.
+- Git to provide version control (to commit and push code to the repository).
+- [FontAwesome](https://fontawesome.com/) v5.15.1 Icons.
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) for debugging, inspecting pages' elements and testing layout.
+- [CloudConvert](https://cloudconvert.com/webp-converter) to optimise images to reduce storage and enhance the website performance.
+- [TinyJPG](https://tinyjpg.com/) to optimise images for readme.
+- [Favicon.cc](https://www.favicon.cc/) to create the website favicon.
+- [Coolors](https://coolors.co/image-picker) to source colour palette from image.
+- [Balsamiq](https://balsamiq.com/wireframes/) to design wireframes.
+- [Techsini](https://tecnisih.com) to create the Mockup image in this README.
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) to assess accessibility.
+- [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) to assess screen-reader accessibility.
+- Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess colour-blind accessibility.
+- [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
+- Code Institute's Gitpod Template to generate the workspace for the project.
+
+___
+
+# Testing
+
+## User Story Testing
+
+| Expectations                                                                                 | Realisation                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **As a first time user:**                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| I want to easily understand the main purpose <br>of the site and learn more about the topic. | 1. On the Home Page, the user is presented with a logo, <br>a meaningful hero image, conveying the ethos, and selling <br>points, with relevant icons, on the first screen.<br><br>2. The Home page provides a complete overview of the topic: <br><br>each page of the website is represented by its own block and <br>ethos block appears on the second screen and includes a CTA <br>button, that invites the user to learn more.  |
+| I want to be able to easily navigate <br>and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and<br>reach any point of the website from any other point.<br><br>2. All external links open in a new tab.                                                                                                                                                                                                                                                                  |
+| I want to find ways to join the community <br>and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Footer contains the links to the social media and <br>allows the user to continue engagement with the movement <br>on various platforms.                                                                                                                                                                                |
+| I want to be amused.                                                                         | 1. The imagery helps to achieve a comical effect from first<br>sight.<br><br>2. The text content is absurd and unexpected.<br><br>3. The website has "an easter egg" to make the user smile<br>and surprise them.                                                                                                                                                                                                                    |
+| **As a returning and frequent user:**                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| I want to find up-to-date information <br>about events and meetings.                         | 1. The Meetups page provides up-to-date information about <br>local meetups and practice sessions and allows the user to <br>contact local representatives via phone call.                                                                                                                                                                                                                                                           |
+| I want to contact the movement <br>to request additional information.                    | 1. The Footer contains the links to the social media to contact<br>the movement there.<br><br>2. The Meetups page includes phone numbers of local <br><br>representatives.                                                                                                                                                                                                                                                       |
+| I want to join the community.                                                                | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Activities section on the Home page includes information<br>about available activities and links to continue engagement<br>on different platforms.                                                                                                                                                                      |
+| I want to find information about training <br>programs and self-development in the field.    | 1. The Training section of the Home page and the Training link <br>of the Navbar inform about the availability of training programs and<br>lead to the Bootcamp Website.                                                                                                                                                                                                                                                                 |
+| **All users:**                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| want to be able to access and comfortably <br>view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and <br>resolutions starting from 350px.<br><br>2. Mobile performance is considered by providing lighter images<br>for the mobile version.<br><br>3. The website is designed following the mobile-first approach<br>to ensure that mobile users receive quality, not reduced<br>experience.                                                                                |
+
+## Feature Testing
+
+All Features were tested manually, find the results below.
+The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (macOS and Android).
+
+![Features_testing](assets/images/readme/features_testing.png)
+
+Testing results: [Excel](assets/testing_doc/features_testing.xlsx), [Numbers MacOS](assets/testing_doc/feature_testing.numbers).
+
+## Automated Testing
+
+1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
+
+All pages were run through HTML Validator. No errors were detected.
+
+2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+
+CSS Stylesheet was run through CSS Validator. No errors were detected.
+
+3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+
+**Home Page**
+
+Mobile
+
+![Mobile Home](assets/images/readme/lighth-home-mobile.png)
+
+Desktop
+
+![Desktop Home](assets/images/readme/lighth-home-desktop.png)
+
+**Philosofy Page**
+
+Mobile
+
+![Mobile Ph](assets/images/readme/lighth-phil-mobile.png)
+
+Desktop
+
+![Desktop Ph](assets/images/readme/lighth-phil-desktop.png)
+
+**Meetups Page**
+
+Mobile
+
+![Mobile Meetups](assets/images/readme/lighth-meetups-mobile.png)
+
+Desktop
+
+![Desktop Meetups](assets/images/readme/lighth-meetups-desktop.png)
+
+**Signup Page**
+
+Mobile
+
+![Mobile Signup](assets/images/readme/lighth-signup-mobile.png)
+
+Desktop
+
+![Desktop Signup](assets/images/readme/lighth-signup-desktop.png)
+
+## Accessibility Testing
+
+### Screen Reader for Goggle Chrome
+
+The website was tested with [Screen Reader for Goggle Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en). No issues arose.
+
+### Toptal Colorfilter
+
+The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to make sure it is accessible for colour-blind users. No accessibility issues were detected.
+
+[Result preview 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=protan)
+
+[Result preview 2](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=deutan)
+
+[Result preview 3](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=tritan)
+
+[Result preview 4](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=grey)
+
+However, a layout bug was found, which did not appear at any other stage.
+
+![Bug](assets/images/readme/button-bug.png)
+
+## Detected Issues and Resolutions
+
+A bug with the "SIGN UP" button on the Home page was detected during the testing with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/). However, it did not appear on any device, browser or screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. Interestingly, my phone with accessibility tools on did not produce the bug.  
+
+![Bug](assets/images/readme/bug.png)
+
+The reason for this bug was a padding conflict. It was fixed by reconsidering paddings and margins in the block. I tested it via Toptal Colorfilter because I was not able to access this bug any other way.
+___
+
+# Deployment
+
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Log into GitHub.
+2. Select `sofing` from the list of repositories.
+3. Select `Settings` From the Repositories sub-headings.
+4. In the left side menu select `Pages` from `Code and automation` section.
+5. Under the `Source` heading in the dropdown menu select `main`.
+6. A second drop-down menu should remain with the default value `/(root)`.
+7. Press `Save`.
+8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+9. Click on the link to go to the live deployed page.
+
+The live link can be found [here](https://oks-erm.github.io/sofing).
+
+## How to run this project Locally
+
+- **Clone the repository**
+
+1. Navigate to the GitHub Repository `oks-erm/sofing`.
+2. Click the `Code` drop-down menu.
+3. Click the `HTTPS` sub-heading under the `Clone` heading.
+4. Copy the link.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Open a terminal in the directory of your choice, type `git clone` and paste the link.
+7. A clone of the repository will now be created on your machine.
+
+- **Download the repository manually**
+
+1. Navigate to the GitHub Repository `oks-erm/sofing`.
+2. Click the `Code` drop-down menu.
+3. Click `Download ZIP`.
+4. Locate the ZIP file and extract it to a folder where you want the repository to be stored.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Navigate to the directory where the repository was extracted.
+7. Now you will have the contents of the project available offline on your machine.
+
+___
+
+# Credits
+
+## Content
+
+The concept and the text used on the website are produced by me. Little fragments of the text could be found [here](https://www.trendhunter.com/trends/a-new-extreme-sport-sofing), as they were earlier published by my friend Hernando Gomez Salinas. He tried to start it off as a meme, but it took root only in the Spanish speaking community and not for long. I would like to give it a second chance.
+
+## Media
+
+- hero-image.webp is by @littlehenrabi from [iStock](https://istockphoto.com).
+- training.webp is by @inside-weather from [Unsplash](https://unsplash.com).
+- act1.webp is by Carlos Muchado from [Unsplash](https://unsplash.com).
+- act2.webp is by Franck Boston from [iStock](https://istockphoto.com).
+- act3.webp is by @4x6 from [iStock](https://istockphoto.com).
+- signup-section.webp is by Paul Weaver from [Unsplash](https://unsplash.com).
+- signup.webp is by Alexis Antoine from [Unsplash](https://unsplash.com).
+- meetups.webp is by Ben Lambert from [Unsplash](https://unsplash.com).
+- philosofy.webp is by Guven Gunes from [Unsplash](https://unsplash.com).
+- philosofy1.webp is by Logan Cameron from [Unsplash](https://unsplash.com).
+- philosofy2.webp is by Juan Gomez from [Unsplash](https://unsplash.com).
+- philosofy3.webp is by Alina Levkovich from [Unsplash](https://unsplash.com).
+- favicon.ico was created by me.
+
+## Code
+
+- Implementation of Flexbox and Grid was assisted by [CSS Tricks](https://css-tricks.com).
+- Code snippets for iplementation of "hamburger menu" were taken from [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [here](https://codepen.io/erikterwan/pen/EVzeRP) and modified.
+- Code snippet for the links hover effect is taken from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/) and modified.
+- Code snippet for the "Choose your country" field is taken from [here](https://www.technicalkeeda.com/html-tutorials/all-countries-drop-down-list-in-html).
+- Code snippet for the speech bubble was taken from [here](https://freefrontend.com/css-speech-bubbles/) and modified.
+- Code snippet for the gradient effect for text was taken from [CSS Tricks](https://css-tricks.com/snippets/css/gradient-text/) and modified.
+- Guidance on HTML attributes and common conventions were obtained from [W3Schools](https://www.w3schools.com/) and [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/).
+- Understanding of shadows was obtained from [W3Schools](https://www.w3schools.com/).
+
+## Acknowledgements
+
+I would like to thank my mentor, Ronan McClelland, for his guidance, moral support, inspiration, invaluable advice and sense of humour.
+
+Thanks to Slack Community for answering all my questions before I asked them.
+___
