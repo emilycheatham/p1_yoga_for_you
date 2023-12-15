@@ -46,7 +46,9 @@ ___
 - I want to be able enquire about classes or sign up to classes.
 - I want to be able to contact the studio.
 
-### All users want to be able to access and comfortably view the website on mobile devices
+### All users
+
+- All users want to be able to confortably view and access the wesbite on different devices
 
 ___
 
@@ -177,47 +179,19 @@ Yoga is renound for aiding mental health, and being a time to be calm, focused a
 
 ### Colour Scheme
 
-![Palette](assets/images/readme/palette.png)
+![Palette](assets/images/readme/colorpalette.png)
 
-A seemingly unconventional colour palette choice serves to embody a maverick component, mock existing cliches and challenge the rules (such as colour combination), just as Sofing does by turning doing nothing into a sport.
-
-#### **Shades of Whitesmoke**
-
-represent calm, air and light; two shades are used for volume effect.  
-> ![white1](assets/images/readme/white1.png) #efefef (Background Colour, Text Colour on dark background);
-
-> ![white2](assets/images/readme/white2.png) #f8f8f8 (Background Colour, Borders).
-
-#### **Shades of Charcoal Grey**
-
-are cool, neutral and balanced, just like Sofing wants its practitioners to be. It is also known as a sophisticated colour. It is used to bring some contrast and draw attention to the ethos block on the home page. Several shades are used to avoid excessive contrast and heavy headings but provide accessibility.
-> ![grey2](assets/images/readme/grey2.png) #333333 (Background Colour);
-
-> ![grey3](assets/images/readme/grey3.png) #515151 (Default Text Colour);
-
-> ![grey1](assets/images/readme/grey1.png) #6a6a6a (Headings, Borders).
-
-#### **Coral**
-
-represents friendliness, cheerfulness and boldness. Moreover, it seems to be one of the typical sofa colours and it refers to the [famous couch from Friends tv series](https://www.texomashomepage.com/wp-content/uploads/sites/41/2019/09/friends-orange-couch.jpg).
-> ![coral](assets/images/readme/coral.png) #e06666 (Background Colour).
-
-#### **Reef**  
-
-represents trust and tranquillity. In fact, [57% of men and 35% of women say blue is their favourite colour](https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/03/24214633/website-color-palettes-35.png), it is the most common “favourite” colour among the majority of the population. So, as I want to appeal to a broad audience, I decided to implement it.
-> ![reef](assets/images/readme/reef.png) #a6ceef (Background Colour, Buttons, Hover effects, Gradient for Logo and Headings).
+The colour palette was selected to envoke feelings of calmness and relaxation. The palette was generated using the [Color hunt wesbite](https://colorhunt.co/). The green, white and pink is often echoed through yoga photos echoing the practitioner's clothes, skin and location. 
 
 ### Typography
+Through the exploration of the [fontpair wesbite](https://www.fontpair.co/) the combination of the following fonts were used from Google fonts:
+[Montserrat](https://fonts.google.com/specimen/Montserrat) This was was chosen for the main body as it was neutral and easy to read.
 
-[Koulen](https://fonts.google.com/specimen/Koulen) was intended to be used for logo and headings, however, it turned out to be too loud and intense if used for all headings, and also it compromised the legibility of many headings. Therefore, it was decided to limit its implementation and prefer softer and more neutral font for most of the headings throughout the website.
-
-[Montserrat](https://fonts.google.com/specimen/Montserrat) was chosen for this purpose. It is neutral and easy to read.
-
-[Lato](https://fonts.google.com/specimen/Lato) was chosen for body text as it is light and easy to read.
+[Hind](https://fonts.google.com/specimen/Hind) was used for the headings at all levels.
 
 ### Images
 
-The images in this project were sourced from [Unsplash](https://unsplash.com/) and [iStock](https://www.istockphoto.com). They were specifically selected to correlate with the main website colour palette and increase the aesthetic impact of the design.
+The images in this project were sourced from [pexels](https://www.pexels.com/).All images on this website are free stockp hotos which are royalty free. The images were selected as they showed individuals doing yoga and different yoga classes. The studios in the image linked with the ethos and theme I was trying to create. The colours also correlated with the colour palette used. 
 
 ### Visual Effects
 
