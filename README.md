@@ -53,6 +53,11 @@ ___
 ___
 
 ## Structure
+The website it comprised of five main pages, four of which are accessible from the navigation menu (home, about us, gallery, sign up.) The fifth page is a thank you page which is shown once the user submits the form with an enquiy or signing up on the sign-up page.
+All pages on the website have: 
+
+- A responsive naviagation bar at the top, which is static so it is accesible at all times. To the left of the navigation bar is the logo. To the right of the navigation bar, there are links to the pages - home, about us, gallery, sign up. To allow for a good user experience, on mobile devices, the nav bar is hidden through the use of a media query and will display as a burger toggler.
+- A footer which contains social media links to facebook, intstagram, twitter and tik-tok. There is the studio's address and phone number. The email address is an anchor, and will open up email in a new tab.
 
 ### Home Page
 
@@ -60,18 +65,16 @@ ___
 - Draws the eye to the name of the Yoga studio and where to find the studio.
 - Introduces the benefits of yoga and the types of yoga the studio offers.
 - Provides clear links to relevant pages to find out more infomation.
-- Has a clear navigation tool bar, which is static, allowing for easy access to other areas of the website.
-- Has a clear footer providing links to social media, and contact details.
 
 #### User Goal
-    >
+    
     > - To understand the benefits of yoga
     > - To understand the different types of yoga the studio offers. To have enough information to know what class would be most suitable for their abilities and/or needs.
     > - Easily navigate and interact with the website.
     > - To be able to find and contact the studio.
-    >
+    
 #### Website Goal
-    >
+    
     > - Interest and engage the user.
     > - Provide them knoweldge of the yoga the studio offers
     > - Easy navigation to the relavent pages.
@@ -86,14 +89,14 @@ ___
 - Provides the times for each type of class per day.
 
 #### User Goal
-    >
+    
     > - To know the lenght of the classes.
     > - To know what times the classes are for each type of yoga, and on each day, in order to select the class that best suits their lifestyle.
     > - To know the prices - per class and for membership.
     > - To know what equipment is needed.
-    >
+    
 #### Website Goal
-    >
+    
     > - Present the yoga teachers, to help set the ethos.
     > - Provide clear information on classes: length, price, times.
     > - Interactive timetable to make it easier to view set yoga types.
@@ -105,13 +108,13 @@ ___
 - Provides testimonials from customers about their experiences
 
 #### User Goal
-    >
+    
     > - To view images of the studio to get a feel for the ethos, the studio size and space.
     > - To see images of the different types of classes to guage where they would be interested or feel able.
     > - To read testimonials from current customers
-    >
+    
 #### Website Goal
-    >
+    
     > - Set ethos of club
     > - Range of photos of abilites, classes, ages and ability to promote inclusivity.
     > - Postivitive testimontials to promote the studio and the instructors.
@@ -122,12 +125,12 @@ ___
 - Allows the user to join the mailing list.
 
 #### User Goal
-    >
+    
     > - To be able to contact the studio with an enqiry.
     > - To be able to sign up to a class.
     > - To join the mailing list.
 #### Website Goal
-    >
+    
     > - Provide a clear way for both new customers and existing members to contact the studio to enquire or sign up for a class.
     > - To provide option to sign up to the mailing list.
     
@@ -140,14 +143,14 @@ ___
 - Provides a navigation button to return home.
 
 #### User Goal
-    >
+    
     > - To be provided an acknowledgment that the request/sign up has been sent.
     > - To know how if and long it will be until you get a response.
     > - To know how to expect the resonse - via e-mail.
     > - To be able to navigate back to the home page
-    >
+    
 #### Website Goal
-    >
+    
     > - Provide an acknowledgement.of receipt of form.
     > - Provide a clear link back to the index.html page.
 
@@ -170,6 +173,9 @@ ___
 ### **Sign Up Page**
 
 ![Signup-wireframe](assets/images/readme/signUp.png)
+
+### **Thank-you Page**
+A wire frame was not created for this page as it was decided to add this later as an acknowledgement of the form being recieved.
 
 ___
 
@@ -197,11 +203,7 @@ The images in this project were sourced from [pexels](https://www.pexels.com/).A
 
 #### Shadows
 
-As the Home Page consists of multiple colourful overlapping blocks, it was important to add volume and make the content easier to perceive so the viewer's eye doesn't have to focus on understanding spatial relationships between elements, which might be daunting. However, to provide better performance on mobile devices, it was implemented only for screens larger than 992px.
-
-#### Logo and Page Headings Gradient
-
-Sofing movement does not have a logo at the moment. Hence, the text logo was established. Although the font provided the style, it still looked rather bland, flat and intensively dull in default text colours and illegible or inappropriate when executed in colours. Thus, it was decided to implement a gradient of [Charcoal](#shades-of-charcoal-grey) and [Reef](#reef). A similar gradient was later applied to the Philosofy Page Heading and the Meetups Page Heading, but based on [Coral](#coral), to maintain the colour palette.
+As it will stay at the top of the screen as you scroll down, a box-shadow was added to the nav bar to allow for it to seem like it is 3D and be seperate to the other sections.
 
 #### Blocks with CTA
 
