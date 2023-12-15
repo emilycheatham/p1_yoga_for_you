@@ -205,21 +205,27 @@ The images in this project were sourced from [pexels](https://www.pexels.com/).A
 
 As it will stay at the top of the screen as you scroll down, a box-shadow was added to the nav bar to allow for it to seem like it is 3D and be seperate to the other sections.
 
-#### Blocks with CTA
+#### Hover on images
 
-Each block of the Home Page that we want users to interact with and that contains a Call To Action, such as "join the club" or "follow the link", slightly grows (3%) whilst hovered over with a mouse. It provides a stimulating visual effect and draws users' attention even if hovered over with a mouse by accident whilst scrolling. The effect was implemented only for screens larger than 992px to provide better performance on mobile devices.  
+To increase users engagment, and to reduce writing on screen for better visual effect, hover has been used on some images. When hovering over event classes, it provides information about the name, time and requirments/limiaations of the class.
+![Example of hover](assets/images/readme/hover.png)
 
-#### Buttons
+#### Hover on table
 
-Each button offers a similar growing effect described above combined with a change of its background colour: it is blue by default, and it turns subtle green hovered over with a mouse. The green colour was opted for because it is known to be the [best colour for effective CTA buttons](https://www.wordstream.com/blog/ws/2015/02/20/call-to-action-buttons). To provide better performance on mobile devices, it was implemented only for screens larger than 992px.
-
-#### Links
-
-Due to the bold design and abundance of content on the Home Page, it seemed to be necessary to draw additional attention to the links. When being hovered over with a mouse, links change the text colour and the background colour (depending on the parent block design), and the change is executed with an animated effect - "running" from left to right. To provide better performance on mobile devices, it was implemented only for screens larger than 992px.
+To make the classes table easier to read, the whole row turns pink when hovered over. This makes it easier to see a set style of yoga and the times that class is offered throughout the week.
 
 #### Navbar Hover effect
 
-The navbar includes a hover-over effect to make the experience more interactive and navigation more intuitive. When the user engages with the link or hovers over the link, its background colour changes to light blue to subtly highlight the item without compromising legibility.
+To make the experience more interactive, the nav bar includes a hover-over effect for desktops. The text displays as pink, but the hover is #3a3a3a to make it stand out.
+
+#### Buttons
+
+The submit button on the sign up page grows (1.2) when hovered over. The font also becomes underlined in pink when hovered over. When pressed, if the form is filled in correctly, it will take you to the thank-you page.
+
+#### Links
+
+Hover has also been used on anchors. When hovered over, they will underline the text. This can be seen in the nav and the footer. Additionally, on the homepage, two anchors have been stylised like buttons to stand out.
+
 ___
 
 # Features
@@ -228,88 +234,78 @@ ___
 
 - **Navigation bar**
 
-![Nav1](assets/images/readme/nav1.png)
+![nav bar - desktop](assets/images/readme/navbar.png)
 
-Each page has a full responsive sticky navigation bar at the top. It includes the Logo (which is a link to the Home page) and the links to Home, Philosofy, Training, Meetups and Signup pages. It retains an identical layout throughout the website across all devices to ensure **simple and intuitive navigation**. The Navbar will allow the user to reach any section of the website from any point on the website without unnecessary steps and using browser navigation buttons.
+Each page has a navigation bar at the top. It sticks at the top even if you scroll down the page. It has an identical layout on all pages, to ensure a simple and intitive nacigation. 
+The navigation bar is fully responsive, changing size based on the device the user is on.The navigation bar includes the Logo (which is also a link to the Home page) and the links to Home, About Us, Gallery and Sign Up. The navigation bar allows for the user to move through the pages without having to rely on the back button.
 
-![Nav1](assets/images/readme/nav2.png)
-![Nav1](assets/images/readme/nav3.png)
+![nav bar - mobile](assets/images/readme/navbar-mobile.png)
+![nav bar - mobile](assets/images/readme/navbar-mobile2.png)
 
-For mobile devices, it transforms into a compact "hamburger menu". This dropdown menu features the same items, displayed as a column on a semitransparent background.  
+Based on a media quesry, for mobile devices it become a dropdown "hamburger menu" feature. This allows for a better use of the space on smaller devices.
 
 - **Hero image**
 
+This section is the first thing the user sees opening the home page. It is clear what the site is about. It uses colours that match the colour scheme. The image involve a range of people of different ages, genders and races, showing the inclusive nature of the studio.
+The semi-transparent overlay draws the eye, making it very clear what the site is about and where to find the studio. this stretches 60% over the width of the image.
+
 ![Hero](assets/images/readme/hero.png)
+![Hero-mobile](assets/images/readme/hero-mobile.png)
 
-This section is the first thing the user sees opening each page (apart from the Signup page, as it's organised differently due to little content), it is an eye-catching image for aesthetical stimulation, which also helps to deliver the page's semantics as visual associations are commonly very strong. On the Home page, it also includes overlayed cards with key selling points to help the user understand the purpose of the website.
 
-![Hero2](assets/images/readme/hero-philosofy.png)
+On smaller devices, the semi-transparent overlay is 80% width to ensure all text is included whilst still being clear.
 
-![Hero3](assets/images/readme/hero-meetups.png)
+- **Why Practice Yoga section**
+  
+This section highlights the benefits of yoga.
+Its layout is responsive to different devices.
 
-On the other pages, it does not include any overlay. All images are selected to correlate with the website's colour palette and contribute to the aesthetic impact of the design, delivering semantics of the section and achieving purposes such as comical effect. Every image is followed by the section heading, executed in the colour scheme of the block representing this page on the Home page. Colour coding helps the user build associations and follow the content.
+![Why-practice-yoga-mobile](assets/images/readme/practice-small.png)
+![Why-practice-yoga-tablet](assets/images/readme/practice-mobile.png)
+![Why-practice-yoga-desktop](assets/images/readme/practice-desktop.png)
 
-- **Ethos section**
 
-![Ethos](assets/images/readme/ethos.png)
 
-The ethos section will introduce the user to the concept of Sofing as it is something previously not known. The user will be introduced to the moto, given a little preview of philosofy statements and invited to learn more to the Philosofy page if the user finds the preview appealing.
+- **Types of yoga offered section**
 
-- **Training section**
+This section allows the user to have  brief overview of the different types of yoga offered in the studio. It gives enough information for users to be able to decide based on their experience and any physical requirements.
+It is reponsive using flex-box to fit the text into all screen types.
 
-![Training](assets/images/readme/training.png)
+![Type-of-yoga-mobile](assets/images/readme/types-mobile.png)
+![Type-of-yoga-tablet](assets/images/readme/types-tablets.png)
+![Type-of-yoga-desktop](assets/images/readme/types-desktop.png)
 
-This section tells the user about the opportunities in the world of Sofing and leads to a separate website for [the reason described above](#meetups-page). Because this concept is new, the user may not assume what features it includes and does not have particular expectations.
+- **Table for Class section**
+This table is responsive. When hovered over, the row will highlight pink to make it easier to read certain types of yoga classes.
+The divs are resposive. When in mobile view, the text is above the table. The table can be scrolled left to right so all information can be seen even on smaller devices with overflow.
+On larger devices, the text moves to the left of the table, and the table expands to fill the width of the device's screen.
+![table-mobile](assets/images/readme/table-mobile.png)
+![table-tablet](assets/images/readme/table-tablet.png)
+![table-desktop](assets/images/readme/table-desktop.png)
 
-- **Activities section**
+- **Gallery section**
+- 
+This section provides 12 photos which include a range of ages, genders, abilities and classes. Set as grid, the images are all the same size. They are responsive to the device and will change how many images are on a row depending on the device size.
+ 
+![Gallery-mobile](assets/images/readme/gallery-mobile.png)
+![Gallery-desktop](assets/images/readme/gallery-mobile.png)
 
-![Activities](assets/images/readme/activities.png)
 
-This section will allow the user to see the activities the movement organises. It invites the user to engage in different ways, increasing the possibility of it happening. "Sofa Shopping" invites the user to shop at our partner's website (During the testing, it demonstrated a very positive response from the users - some of them listed the Shopping website as the most memorable experience). There is also an opportunity to be paid for referral traffic. "Local Practice" leads to the Meetups page of the website, where users can obtain information about regular practice sessions in different locations. "Networking" leads to Facebook, where users could search Sofing events in their area.
 
-- **Signup section**
+- **Sign Up section**
 
-![Signup-index](assets/images/readme/signup-index.png)
+This section allows for users to ask an enquiry about one or more yoga class. It also allows for users to sign up for a class. Thy can select one or multiple class types. They can only do an enqury or sign up, not both. 
+This form is responsive to different devices.
 
-This section will explain the benefits of club membership and, combined with the experience of the journey through the Home page, will motivate the user to join. It contains interactive elements and a CTA button to stimulate the user to join.
+![Signup-mobile](assets/images/readme/sign-up-mobile.png)
+![Signup-tablet](assets/images/readme/sign-up-tablet.png)
+![Signup-desktop](assets/images/readme/sign-up-desktop.png)
 
 - **Footer**
 
-![Footer](assets/images/readme/footer.png)
-
-The Footer contains the links to the social media and allows the user to continue engagement with the movement on various platforms.
-
-- **Philosofy page**
-
-![Philosofy](assets/images/readme/philosophy.png)
-
-This page contains detailed information about the movement philosophy (the different spelling is used as a joke to improve branding) to convince the user to get involved. A CTA button at the bottom was considered, but then it was decided to remove it because the project is non-commercial and intrusive CTA buttons do not correlate with the spirit of the Philosofy page.
-
-- **Meetups page**
-
-![Meetups](assets/images/readme/meetups-table.png)
-
-This page will allow users to find up-to-date information about practice sessions in different locations. It includes the schedule, the location (leads to a page of the venue on Google Maps) and a clickable phone number, so you can call right away from the page without copying and pasting the number.
-
-- **Signup page**
-
-![Signup](assets/images/readme/signup.png)
-
-This page will allow the user to sign up to Sofing and become a part of the community. The page contains the form, where the user will be asked to submit their full name and email address and choose the country to provide the user with more relevant information about the movement's activities and events.
-
-- **Easter egg**
-
-![Easter](assets/images/readme/easter.png)
-
-The Philosofy page includes an easter egg. It appears when hovered over with a mouse over the hero image somewhat below the "Philosofy" link in the Navbar, so the user might come across it whilst scrolling. Implemented for screens above 1200px.
-
-## Responsive layout
-
-The site is designed to be flexible, fluid, responsive and aesthetically enjoyable on all screen sizes and resolutions starting from 350px (based on [statistics for 2022](https://worship.agency/wp-content/uploads/2022/01/mobile-screen-sizes-2022.png)). To ensure better performance on mobile devices, mobile versions (smaller in size with different aspect ratios) of all hero images are provided. It was considered necessary because the images play a significant role in delivering the semantics of the website and providing the intended user experience. However, it was decided to omit the image for the Signup page for the mobile version, as the Signup form takes up all the screen space on mobile devices.
-
-The choice of breakpoints was based on different aspects, such as typical devices' screen sizes and the intention to provide the best possible presentation of the content for all screen sizes. 768px breakpoint is meant to hit the iPad mini; 992px is quite common to signify the transition to laptops, and, content-wise, it proved to be reasonable. 1200px is not a typical choice, but it was preferred based on the content layout. Media query for screens above 1200px also contains fixed width for many blocks, as, for the convenience of the user and maintaining design aesthetics, it was decided to stop the content from further expanding.
-
-Flexbox and Grid, depending on the content of the block, were used to allow the website to expand and shrink responsively to a device screen size providing each page's design integrity. Elements must maintain their respective position (or change if intended for more efficient representation), they do not overlap or misalign, and the content does not overflow.
+The Footer contains the links to the social media - these are all active. It also provides the address, phone number and e-mail address. The email address will open in a new tab. The footer is responive on mobiles.
+![Footer-mobile](assets/images/readme/footer-mobile.png)
+![Footer-desktop](assets/images/readme/footer-desktop.png)
 
 ## Feature Considerations
 
