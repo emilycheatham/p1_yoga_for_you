@@ -362,6 +362,7 @@ tr:hover {
     color: #fafafa;
 }
     /*.grid and .image-wrapper applied to gallery.html content too*/
+    /*Grid code written by aid of following Web Dev Simplidfied video*/
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

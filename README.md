@@ -1,8 +1,14 @@
 # Yoga For You - Portfolio 1: HTML and CSS
 
-Yoga For You is the website of a Yoga company, based in Richmond, London. It aims to provide information to the user about what types of yoga the company offers, who the instructors are, the times of the classes, and testimonials. It allows for the user to sign up or enquire more about the classes the company offers.
+
+
+This project is a static website which promotes a fictional Yoga company, Yoga For You. It aims to provide information to the user about what types of yoga the company offers, who the instructors are, the times of the classes, and testimonials. It allows for the user to sign up or enquire more about the classes the company offers.
+
+The website it built using HTML and CSS as part of Project 1 for Code Institutes Diploma in Full Stack Development. 
 
 https://emilycheatham.github.io/p1_yoga_for_you/
+
+![Website Mock Up](assets/images/readme/mockup.png)
 
 ## Features
 
