@@ -54,75 +54,100 @@ ___
 
 ### Home Page
 
-- 
-- Introduces the movement and its "selling points" on the first screen.
-- Provides a complete overview of the topic: each page of the website is represented by its own block.
-- Grabs the user's attention and grips it with bold design and entertaining content.
+- Grabs the users attention with a clear image of yoga. 
+- Draws the eye to the name of the Yoga studio and where to find the studio.
+- Introduces the benefits of yoga and the types of yoga the studio offers.
+- Provides clear links to relevant pages to find out more infomation.
+- Has a clear navigation tool bar, which is static, allowing for easy access to other areas of the website.
+- Has a clear footer providing links to social media, and contact details.
 
 #### User Goal
     >
-    > - Understand the main purpose of the website.
-    > - Preview all the sections of the website.
+    > - To understand the benefits of yoga
+    > - To understand the different types of yoga the studio offers. To have enough information to know what class would be most suitable for their abilities and/or needs.
     > - Easily navigate and interact with the website.
-    > - Be amused.
+    > - To be able to find and contact the studio.
     >
 #### Website Goal
     >
-    > - Convey selling points and ethos.
     > - Interest and engage the user.
-    > - Present the user a preview of all content sections.
-    > - Entertain the user.
-    > - Initiate future engagement, such as following on social media, joining the club, attending meetups etc.
+    > - Provide them knoweldge of the yoga the studio offers
+    > - Easy navigation to the relavent pages.
+    > - Provide ways to contact eg. phone, e-mail, address, socials
+    
+### About Us Page
 
-### Philosofy Page
-
-- Delivers the movement's ethos and purpose in detail.
-- Justifies and redeems doing nothing.
-- Includes an easter egg for entertainment.
-
-#### User Goal
-    >
-    > - Obtain information about the movement philosophy and ethos.
-    > - Be amused.
-    >
-#### Website Goal
-    >
-    > - Convey the movement ethos.
-    > - Gain the users trust and sympathy.
-    > - Convince the user to join.
-    > - Entertain the user and make them smile.
-
-### Meetups Page
-
-- Provides up-to-date information about local meetups and practice sessions.
-- Allows the user to contact local representatives.
+- Introduces the Team at the studio - their names and classes they run.
+- Provides the length of the class.
+- Provides information on equipment provides and required.
+- Provides the cost: per class and membership
+- Provides the times for each type of class per day.
 
 #### User Goal
     >
-    > - Find local meetups and regular practice sessions.
-    > - Check the schedule.
-    > - Be able to contact local representatives.
+    > - To know the lenght of the classes.
+    > - To know what times the classes are for each type of yoga, and on each day, in order to select the class that best suits their lifestyle.
+    > - To know the prices - per class and for membership.
+    > - To know what equipment is needed.
     >
 #### Website Goal
     >
-    > - Provide information about local meetups and practice sessions.
-    > - Make it easy for the user to find one and contact local representatives.
+    > - Present the yoga teachers, to help set the ethos.
+    > - Provide clear information on classes: length, price, times.
+    > - Interactive timetable to make it easier to view set yoga types.
+    > - Interactive event classes to engage interest.
 
-### Signup Page
+### Gallery Page
 
-- Allows the user to join the club and get access to special programs and discounts.
+- Provides a range of photos which include a range of ages, genders, abilities and classes.
+- Provides testimonials from customers about their experiences
 
 #### User Goal
     >
-    > - Join the club to access unique content and special offers.
+    > - To view images of the studio to get a feel for the ethos, the studio size and space.
+    > - To see images of the different types of classes to guage where they would be interested or feel able.
+    > - To read testimonials from current customers
     >
 #### Website Goal
     >
-    > - Provide a simple and accessible way to join the club.
+    > - Set ethos of club
+    > - Range of photos of abilites, classes, ages and ability to promote inclusivity.
+    > - Postivitive testimontials to promote the studio and the instructors.
 
-### Meetups
+### Contact Us Page
 
-It was decided to take this section to another website (supposedly existing) because it is intended as a commercial project and contains plenty of information, which deserves a separate platform. However, it was considered reasonable to include it in the menu to inform about it because the movement is new, and users can not assume what features it includes. So it takes the user to the website of **Sofing Bootcamp**, where the user may obtain all the relevant information about training.
+- Allows the users to sign up or make an equiry about one or more class.
+- Allows the user to join the mailing list.
+
+#### User Goal
+    >
+    > - To be able to contact the studio with an enqiiry.
+    > - To be able to sign up to a class.
+    > - To join the mailing list.
+#### Website Goal
+    >
+    > - Provide a clear way for both new customers and existing members to contact the studio to enquire or sign up for a class.
+    > - To provide option to sign up to the mailing list.
+    
+
+### Thank you Page
+
+- Once the form has been submitted on the Sign Up page, the user is redirected to the 'Thank you' page.
+- Provides acknowledgement that their enquiry/sign up has been recieved.
+- States when they should recived an e-mail response.
+- Provides a navigation button to return home.
+
+#### User Goal
+    >
+    > - To be able to contact the studio with an enqiiry.
+    > - To be able to sign up to a class.
+    > - To join the mailing list.
+    >
+#### Website Goal
+    >
+    > - Provide a clear way for both new customers and existing members to contact the studio to enquire or sign up for a class.
+    > - To provide option to sign up to the mailing list.
+
 ___
 
 ## Wireframes
