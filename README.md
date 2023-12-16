@@ -381,7 +381,7 @@ All pages were run through HTML Validator. No errors were detected.
 1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
 CSS Stylesheet was run through CSS Validator. No errors were detected.
-- [style.css CSS](assets/images/readme/)
+- [style.css CSS](assets/images/readme/CSSvalidation.png)
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
@@ -389,21 +389,21 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](assets/images/readme/lighth-home-mobile.png)
+![Mobile Home](assets/images/readme/index%20mobile.png)
 
 Desktop
 
-![Desktop Home](assets/images/readme/lighth-home-desktop.png)
+![Desktop Home](assets/images/readme/index%20mobile.png)
 
 **About Us Page**
 
 Mobile
 
-![Mobile Ph](assets/images/readme/lighth-phil-mobile.png)
+![Mobile Ph](assets/images/readme/about%20us%20mobile.png)
 
 Desktop
 
-![Desktop Ph](assets/images/readme/lighth-phil-desktop.png)
+![Desktop Ph](assets/images/readme/about%20us%20desktop.png)
 
 **Gallery Page**
 
