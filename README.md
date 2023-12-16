@@ -320,6 +320,9 @@ Currently, once the form on the Sign Up page is completed, it takes you to a tha
 
 In the wireframes, googlemaps was intetend to be placed in the footer. This was removed as I felt it would have been too large. This could be used in the About Us page, or as a pop up feature when the address in the footer is clicked on/hovered over.
 
+### Link buttons
+Originally the anchor links on the index page and the thank you page were buttons. They grew when you hovered over them. However, validator checks didn't like buttons and anchors together. I would like to redo these so they all look the same, and increase in size when hovered. The font would need shaning to stand out more. I would like it to link to a certain section rather than just a page.
+
 ### Accessibility
 
 Whilst the lighthouse checks rated the accessibily in the 90's, there is still room for improvement. One of the suggestions was that background and foreground colours do not have sufficent contrast ratio. Therefore, I would intend on experimenting with changing these to improve this contrast futher whist still maintaining the colour scheme.
@@ -363,6 +366,7 @@ The following issues arose and were solved through testing, tutor meetings, and 
 - The section that the table was in had white space on smaller devices - a div was added around the whole section and overflow: hidden was added.
 - The sign up form was too small - text size was increased, padding added and block element added to the text-input.
 - The text input sections overflowed out of the space, especially on smaller devices. A fiv with flex was added, and text overfolow: hidden.
+- Images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
 
 
 ## Automated Testing
@@ -389,7 +393,7 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](assets/images/readme/index%20mobile.png)
+![Mobile Home](assets/images/readme/lighthouse0-)
 
 Desktop
 
@@ -409,61 +413,32 @@ Desktop
 
 Mobile
 
-![Mobile Meetups](assets/images/readme/lighth-meetups-mobile.png)
+![Mobile Meetups](assets/images/readme/gallery%20mobile.png)
 
 Desktop
 
-![Desktop Meetups](assets/images/readme/lighth-meetups-desktop.png)
+![Desktop Meetups](assets/images/readme/gallery%20desktop.png)
 
 **Signup Page**
 
 Mobile
 
-![Mobile Signup](assets/images/readme/lighth-signup-mobile.png)
+![Mobile Signup](assets/images/readme/sign%20up%20mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/lighth-signup-desktop.png)
+![Desktop Signup](assets/images/readme/sign%20up%20desktop.png)
 
 **Thank-you Page**
 
 Mobile
 
-![Mobile Signup](assets/images/readme/lighth-signup-mobile.png)
+![Mobile Signup](assets/images/readme/thank%20you%20mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/lighth-signup-desktop.png)
+![Desktop Signup](assets/images/readme/thank%20you%20mobile.png)
 
-## Accessibility Testing
-
-### Screen Reader for Goggle Chrome
-
-The website was tested with [Screen Reader for Goggle Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en). No issues arose.
-
-### Toptal Colorfilter
-
-The website was tested with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to make sure it is accessible for colour-blind users. No accessibility issues were detected.
-
-[Result preview 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=protan)
-
-[Result preview 2](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=deutan)
-
-[Result preview 3](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=tritan)
-
-[Result preview 4](https://www.toptal.com/designers/colorfilter?orig_uri=https://oks-erm.github.io/sofing/index.html&process_type=grey)
-
-However, a layout bug was found, which did not appear at any other stage.
-
-![Bug](assets/images/readme/button-bug.png)
-
-## Detected Issues and Resolutions
-
-A bug with the "SIGN UP" button on the Home page was detected during the testing with Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/). However, it did not appear on any device, browser or screen size during other testing stages. I struggled to "achieve" the same result to be able to resolve it when finally it was detected again on the mobile device with activated accessibility tools. Interestingly, my phone with accessibility tools on did not produce the bug.  
-
-![Bug](assets/images/readme/bug.png)
-
-The reason for this bug was a padding conflict. It was fixed by reconsidering paddings and margins in the block. I tested it via Toptal Colorfilter because I was not able to access this bug any other way.
 ___
 
 # Deployment
