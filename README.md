@@ -117,16 +117,16 @@ All pages on the website have:
     
     > - Set ethos of club
     > - Range of photos of abilites, classes, ages and ability to promote inclusivity.
-    > - Postivitive testimontials to promote the studio and the instructors.
+    > - Positive testimonials to promote the studio and the instructors.
 
 ### Contact Us Page
 
-- Allows the users to sign up or make an equiry about one or more class.
+- Allows the users to sign up or make an enquiry about one or more class.
 - Allows the user to join the mailing list.
 
 #### User Goal
     
-    > - To be able to contact the studio with an enqiry.
+    > - To be able to contact the studio with an enquiry.
     > - To be able to sign up to a class.
     > - To join the mailing list.
 #### Website Goal
@@ -146,12 +146,12 @@ All pages on the website have:
     
     > - To be provided an acknowledgment that the request/sign up has been sent.
     > - To know how if and long it will be until you get a response.
-    > - To know how to expect the resonse - via e-mail.
+    > - To know how to expect the response - via e-mail.
     > - To be able to navigate back to the home page
     
 #### Website Goal
     
-    > - Provide an acknowledgement.of receipt of form.
+    > - Provide an acknowledgement of receipt of form.
     > - Provide a clear link back to the index.html page.
 
 ___
@@ -181,7 +181,7 @@ ___
 
 ## Design
 
-Yoga is renound for aiding mental health, and being a time to be calm, focused and in the now. As a result, the project's design arises from this theme. It aims to be calming and peaceful. It aims to have enough contrast to draw the viewer's eye to intended element, and be contrasting enought to be accessible for all users, whilst maintiaing the calming ethos. 
+Yoga is renowned for aiding mental health, and being a time to be calm, focused and in the now. As a result, the project's design arises from this theme. It aims to be calming and peaceful. It aims to have enough contrast to draw the viewer's eye to intended element, and be contrasting enough to be accessible for all users, whilst maintaining the calming ethos. 
 
 ### Colour Scheme
 
@@ -190,14 +190,14 @@ Yoga is renound for aiding mental health, and being a time to be calm, focused a
 The colour palette was selected to envoke feelings of calmness and relaxation. The palette was generated using the [Color hunt wesbite](https://colorhunt.co/). The green, white and pink is often echoed through yoga photos echoing the practitioner's clothes, skin and location. 
 
 ### Typography
-Through the exploration of the [fontpair wesbite](https://www.fontpair.co/) the combination of the following fonts were used from Google fonts:
+Through the exploration of the [fontpair website](https://www.fontpair.co/) the combination of the following fonts were used from Google fonts:
 [Montserrat](https://fonts.google.com/specimen/Montserrat) This was was chosen for the main body as it was neutral and easy to read.
 
 [Hind](https://fonts.google.com/specimen/Hind) was used for the headings at all levels.
 
 ### Images
 
-The images in this project were sourced from [pexels](https://www.pexels.com/).All images on this website are free stockp hotos which are royalty free. The images were selected as they showed individuals doing yoga and different yoga classes. The studios in the image linked with the ethos and theme I was trying to create. The colours also correlated with the colour palette used. 
+The images in this project were sourced from [pexels](https://www.pexels.com/).All images on this website are free stock photos which are royalty free. The images were selected as they showed individuals doing yoga and different yoga classes. The studios in the image linked with the ethos and theme I was trying to create. The colours also correlated with the colour palette used. 
 
 ### Accessibility
 
@@ -209,11 +209,11 @@ The images in this project were sourced from [pexels](https://www.pexels.com/).A
 
 #### Shadows
 
-As it will stay at the top of the screen as you scroll down, a box-shadow was added to the nav bar to allow for it to seem like it is 3D and be seperate to the other sections.
+As it will stay at the top of the screen as you scroll down, a box-shadow was added to the nav bar to allow for it to seem like it is 3D and be separate to the other sections.
 
 #### Hover on images
 
-To increase users engagment, and to reduce writing on screen for better visual effect, hover has been used on some images. When hovering over event classes, it provides information about the name, time and requirments/limiaations of the class.
+To increase users engagement, and to reduce writing on screen for better visual effect, hover has been used on some images. When hovering over event classes, it provides information about the name, time and requirments/limiaations of the class.
 ![Example of hover](assets/images/readme/hover.png)
 
 #### Hover on table
@@ -242,13 +242,13 @@ ___
 
 ![nav bar - desktop](assets/images/readme/navbar.png)
 
-Each page has a navigation bar at the top. It sticks at the top even if you scroll down the page. It has an identical layout on all pages, to ensure a simple and intitive nacigation. 
-The navigation bar is fully responsive, changing size based on the device the user is on.The navigation bar includes the Logo (which is also a link to the Home page) and the links to Home, About Us, Gallery and Sign Up. The navigation bar allows for the user to move through the pages without having to rely on the back button.
+Each page has a navigation bar at the top. It sticks at the top even if you scroll down the page. It has an identical layout on all pages, to ensure a simple and intuitive navigation. 
+The navigation bar is fully responsive, changing size based on the device the user is on. The navigation bar includes the Logo (which is also a link to the Home page) and the links to Home, About Us, Gallery and Sign Up. The navigation bar allows for the user to move through the pages without having to rely on the back button.
 
 ![nav bar - mobile](assets/images/readme/navbar-mobile.png)
 ![nav bar - mobile](assets/images/readme/navbar-mobile2.png)
 
-Based on a media quesry, for mobile devices it become a dropdown "hamburger menu" feature. This allows for a better use of the space on smaller devices.
+Based on a media query, for mobile devices it become a dropdown "hamburger menu" feature. This allows for a better use of the space on smaller devices.
 
 - **Hero image**
 
@@ -283,7 +283,7 @@ It is reponsive using flex-box to fit the text into all screen types.
 
 - **Table for Class section**
 This table is responsive. When hovered over, the row will highlight pink to make it easier to read certain types of yoga classes.
-The divs are resposive. When in mobile view, the text is above the table. The table can be scrolled left to right so all information can be seen even on smaller devices with overflow.
+The divs are responsive. When in mobile view, the text is above the table. The table can be scrolled left to right so all information can be seen even on smaller devices with overflow.
 On larger devices, the text moves to the left of the table, and the table expands to fill the width of the device's screen.
 ![table-mobile](assets/images/readme/table-mobile.png)
 ![table-tablet](assets/images/readme/table-tablet.png)
@@ -300,7 +300,7 @@ This section provides 12 photos which include a range of ages, genders, abilitie
 
 - **Sign Up section**
 
-This section allows for users to ask an enquiry about one or more yoga class. It also allows for users to sign up for a class. Thy can select one or multiple class types. They can only do an enqury or sign up, not both. 
+This section allows for users to ask an enquiry about one or more yoga class. It also allows for users to sign up for a class. Thy can select one or multiple class types. They can only do an enquiry or sign up, not both. 
 This form is responsive to different devices.
 
 ![Signup-mobile](assets/images/readme/sign-up-mobile.png)
@@ -309,7 +309,7 @@ This form is responsive to different devices.
 
 - **Footer**
 
-The Footer contains the links to the social media - these are all active. It also provides the address, phone number and e-mail address. The email address will open in a new tab. The footer is responive on mobiles.
+The Footer contains the links to the social media - these are all active. It also provides the address, phone number and e-mail address. The email address will open in a new tab. The footer is responsive on mobiles.
 ![Footer-mobile](assets/images/readme/footer-mobile.png)
 ![Footer-desktop](assets/images/readme/footer-desktop.png)
 
@@ -317,18 +317,18 @@ The Footer contains the links to the social media - these are all active. It als
 
 ### Signup form processing
 
-Currently, once the form on the Sign Up page is completed, it takes you to a thank you page. The data is not being processed or stored. This is also due to it being a fictional company. However, the data would ideally be stored, processed and analysed. Using this, online booking could be made with instant feedback, instead of having to wait for an e-mail response. This would make it more efficient for the compnay, and provide a more efficient and personalised quality experience for the user. 
+Currently, once the form on the Sign Up page is completed, it takes you to a thank you page. The data is not being processed or stored. This is also due to it being a fictional company. However, the data would ideally be stored, processed and analysed. Using this, online booking could be made with instant feedback, instead of having to wait for an e-mail response. This would make it more efficient for the company, and provide a more efficient and personalised quality experience for the user. 
 
 ### Popup preview of Google Maps
 
 In the wireframes, googlemaps was intetend to be placed in the footer. This was removed as I felt it would have been too large. This could be used in the About Us page, or as a pop up feature when the address in the footer is clicked on/hovered over.
 
 ### Link buttons
-Originally the anchor links on the index page and the thank you page were buttons. They grew when you hovered over them. However, validator checks didn't like buttons and anchors together. I would like to redo these so they all look the same, and increase in size when hovered. The font would need shaning to stand out more. I would like it to link to a certain section rather than just a page.
+Originally the anchor links on the index page and the thank you page were buttons. They grew when you hovered over them. However, validator checks didn't like buttons and anchors together. I would like to redo these so they all look the same, and increase in size when hovered. The font would need shading to stand out more. I would like it to link to a certain section rather than just a page.
 
 ### Accessibility
 
-Whilst the lighthouse checks rated the accessibily in the 90's, there is still room for improvement. One of the suggestions was that background and foreground colours do not have sufficent contrast ratio. Therefore, I would intend on experimenting with changing these to improve this contrast futher whist still maintaining the colour scheme.
+Whilst the lighthouse checks rated the accessibility in the 90's, there is still room for improvement. One of the suggestions was that background and foreground colours do not have sufficent contrast ratio. Therefore, I would intend on experimenting with changing these to improve this contrast further whist still maintaining the colour scheme.
 I would use the site I found at the end of my project, Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/)to improve access for those with colour-blindness.
 
 ___
@@ -340,7 +340,7 @@ ___
 - [Balsamiq](https://balsamiq.com/wireframes/)- Used to create the wireframes
 - Git - For version control.
 - [GitHub](https://GitHub.com/) - To save and store the files for the website
-- [Gitpod](https://gitpod.io/) - IDE to develop the wesbsite
+- [Gitpod](https://gitpod.io/) - IDE to develop the website
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the wesbite
 - [FontAwesome](https://fontawesome.com/) - For the inconography on the wesbite. v5.15.1 Icons.
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solvingiissues with responsiveness and styling.
@@ -359,7 +359,7 @@ ___
 
 # Testing
 
-Testing was ongoing throught the entire build. Google Chrome Developer Dev tools was utilised to pinpoint and troubleshoot any issues. Every page was viewed on Dev Tools to check responsivity on different devices. The site was also trialled on a number of browsers (Google chrome, safari, Mozilla)
+Testing was ongoing throughout the entire build. Google Chrome Developer Dev tools was utilised to pinpoint and troubleshoot any issues. Every page was viewed on Dev Tools to check responsivity on different devices. The site was also trialled on a number of browsers (Google chrome, safari, Mozilla)
 
 # User Stories
 | Expectations                              | realisations                      |
@@ -377,7 +377,7 @@ Testing was ongoing throught the entire build. Google Chrome Developer Dev tools
 | I want to be able enquire about classes or sign up to classes. | The sign up page has an option to sign up or enquire. There are also contact details on the footer if they prefer to phone |
 | I want to be able to contact the studio | Address, e-mail and phone number are on the footer of every page. The Sign up page allows for enquiries to be made |
 |**All users**                   |                                   |
-| I want to be able to view the wesbite comfortably on my device | Aria tags have been added for screen readers. Contracting backgrounds and fonts have been used to read easily. Responsiveness on device sizes has been added |
+| I want to be able to view the website comfortably on my device | Aria tags have been added for screen readers. Contracting backgrounds and fonts have been used to read easily. Responsiveness on device sizes has been added |
 
 
 
@@ -390,7 +390,7 @@ The following issues arose and were solved through testing, tutor meetings, and 
 - The section that the table was in had white space on smaller devices - a div was added around the whole section and overflow: hidden was added.
 - The sign up form was too small - text size was increased, padding added and block element added to the text-input.
 - The text input sections overflowed out of the space, especially on smaller devices. A fiv with flex was added, and text overfolow: hidden.
-- Inital testing on lighthouse raised that images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
+- Initial testing on lighthouse raised that images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
 
 
 ## Automated Testing
@@ -475,7 +475,7 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source heading, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. 
-7. A message that the website is ready to be deployed will apprear. Reresh the page and the link to the deployed site will be available.
+7. A message that the website is ready to be deployed will appear. Refresh the page and the link to the deployed site will be available.
 8. Your live Github Pages site is now deployed at the URL shown.
 
 The live link can be found [here](https://emilycheatham.github.io/p1_yoga_for_you/).
@@ -500,7 +500,7 @@ ___
 
 ## Content
 
-Content for the wesbite was written by the owner Emily Cheatham
+Content for the website was written by the owner Emily Cheatham
 
 Readm.md file was created based on the structure of [Sofing](https://github.com/oks-erm/sofing/blob/main/README.md) and [Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
 
@@ -514,5 +514,5 @@ I would like to thank my mentor, Ronan McClelland, for his valuable guidance and
 
 I would like to thank Craig Hudson for helping me realise there was an issue with my port.
 
-I would like to thank the Slack community for answering questions before I even had them. And especailly Kellie who took the time to peer review my project, picking up on spelling issues and pointing me in the direction of a good ReadMe.md structure.
+I would like to thank the Slack community for answering questions before I even had them. And especially Kellie who took the time to peer review my project, picking up on spelling issues and pointing me in the direction of a good ReadMe.md structure.
 ___
