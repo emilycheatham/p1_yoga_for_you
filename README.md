@@ -331,18 +331,19 @@ ___
 
 - HTML to accomplish the structure of the website.
 - CSS to style the website.
-- Balsamiq - Used to create the wireframes
+- [Balsamiq](https://balsamiq.com/wireframes/)- Used to create the wireframes
 - Git - For version control.
-- Github - To save and store the files for the website
-- Gitpod - IDE to develop the wesbsite
-- Google Fonts - To import the fonts used on the wesbite
-- Font Awesome - For the inconography on the wesbite. v5.15.1 Icons.
-- Google Dev Tools - To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solvingiissues with responsiveness and styling.
+- [GitHub](https://GitHub.com/) - To save and store the files for the website
+- [Gitpod](https://gitpod.io/) - IDE to develop the wesbsite
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the wesbite
+- [FontAwesome](https://fontawesome.com/) - For the inconography on the wesbite. v5.15.1 Icons.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solvingiissues with responsiveness and styling.
 - Paint - To crop images
-- CloudConverter and Pixelied - to optomise larger images to reduce the storage and enhance wesbite performance 
-- Favicon - to create the website favicon.
-- Colorhunt - to source colour palette
-- Google Chrome's Lighthouse - to access preformance and accesibility
+- [CloudConvert](https://cloudconvert.com/webp-converter) and Pixelied [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp) - to optomise larger images to reduce the storage and enhance wesbite performance.
+- [pexels](https://www.pexels.com/) - To find and download royalty free images
+- [Favicon.cc](https://www.favicon.cc/) - to create the website favicon.
+- [Colorhunt](https://colorhunt.co/) - to source colour palette
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to access preformance and accesibility
 - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 - [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
