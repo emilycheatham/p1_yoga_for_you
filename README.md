@@ -18,10 +18,10 @@ This project is a static website which promotes a fictional Yoga company, Yoga F
 The core purposes of the website:
 
 - introduce the yoga studio to customers
-- allow viewsers to see what types of yoga are offered at the studio
+- allow viewers to see what types of yoga are offered at the studio
 - to allow ways for viewers to contact the studio.
 
-This site is based on a fictitious company. The project was developed for project 1 HTML and CCS unit of Code Institute's Disploma in Full Stack Software Development.
+This site is based on a fictitious company. The project was developed for project 1 HTML and CCS unit of Code Institute's Diploma in Full Stack Software Development.
 
 [The live website is available here](https://emilycheatham.github.io/p1_yoga_for_you/)
 ___
@@ -32,7 +32,7 @@ ___
 
 ### As a **first time user**
 
-- I want to be able to navigate the wste easily to find the content I need.
+- I want to be able to navigate the site easily to find the content I need.
 - I want to know where the studio is.
 - I want to know what types of yoga are offered and which one would suit me.
 - I want to know the cost of the classes.
@@ -48,15 +48,15 @@ ___
 
 ### All users
 
-- All users want to be able to confortably view and access the wesbite on different devices.
+- All users want to be able to comfortably view and access the website on different devices.
 
 ___
 
 ## Structure
-The website it comprised of five main pages, four of which are accessible from the navigation menu (home, about us, gallery, sign up.) The fifth page is a thank you page which is shown once the user submits the form with an enquiy or signing up on the sign-up page.
+The website it comprised of five main pages, four of which are accessible from the navigation menu (home, about us, gallery, sign up.) The fifth page is a thank you page which is shown once the user submits the form with an enquiry or signing up on the sign-up page.
 All pages on the website have: 
 
-- A responsive naviagation bar at the top, which is static so it is accesible at all times. To the left of the navigation bar is the logo. To the right of the navigation bar, there are links to the pages - home, about us, gallery, sign up. To allow for a good user experience, on mobile devices, the nav bar is hidden through the use of a media query and will display as a burger toggler.
+- A responsive navigation bar at the top, which is static so it is accessible at all times. To the left of the navigation bar is the logo. To the right of the navigation bar, there are links to the pages - home, about us, gallery, sign up. To allow for a good user experience, on mobile devices, the nav bar is hidden through the use of a media query and will display as a burger toggler.
 - A footer which contains social media links to facebook, intstagram, twitter and tik-tok. There is the studio's address and phone number. The email address is an anchor, and will open up email in a new tab.
 
 ### Home Page
@@ -64,7 +64,7 @@ All pages on the website have:
 - Grabs the users attention with a clear image of yoga. 
 - Draws the eye to the name of the Yoga studio and where to find the studio.
 - Introduces the benefits of yoga and the types of yoga the studio offers.
-- Provides clear links to relevant pages to find out more infomation.
+- Provides clear links to relevant pages to find out more information.
 
 #### User Goal
     
@@ -76,8 +76,8 @@ All pages on the website have:
 #### Website Goal
     
     > - Interest and engage the user.
-    > - Provide them knoweldge of the yoga the studio offers
-    > - Easy navigation to the relavent pages.
+    > - Provide them knowledge of the yoga the studio offers
+    > - Easy navigation to the relevent pages.
     > - Provide ways to contact eg. phone, e-mail, address, socials
     
 ### About Us Page
@@ -90,7 +90,7 @@ All pages on the website have:
 
 #### User Goal
     
-    > - To know the lenght of the classes.
+    > - To know the length of the classes.
     > - To know what times the classes are for each type of yoga, and on each day, in order to select the class that best suits their lifestyle.
     > - To know the prices - per class and for membership.
     > - To know what equipment is needed.
@@ -495,14 +495,14 @@ ___
 
 ## Code
 
- - Tutorials from ![Code Institute's](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) Love Running Project were followed for the Love Project. This was used as a base structure for the design.
-- Hover over images hover effect developed by following ![Web Dev Simplifier](https://www.youtube.com/watch?v=tF3RE5CGt9U)
+ - Tutorials from [Code Institute's](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) Love Running Project were followed for the Love Project. This was used as a base structure for the design.
+- Hover over images hover effect developed by following [Web Dev Simplifier](https://www.youtube.com/watch?v=tF3RE5CGt9U)
 
 ## Content
 
 Content for the wesbite was written by the owner Emily Cheatham
 
-Readm.md file was created based on the structure of ![Sofing]<https://github.com/oks-erm/sofing/blob/main/README.md> and ![Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
+Readm.md file was created based on the structure of [Sofing](https://github.com/oks-erm/sofing/blob/main/README.md) and [Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
 
 ## Media
 
