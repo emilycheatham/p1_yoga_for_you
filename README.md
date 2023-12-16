@@ -48,7 +48,10 @@ ___
 
 ### All users
 
-- All users want to be able to confortably view and access the wesbite on different devices
+- All users want to be able to confortably view and access the wesbite on different devices.
+- Active tags have been added to menus to allow screen readers to see which page is currently open.
+- Aria labels have been added on all images across the site to provide information to screen readers.
+- Scope labels have been used on the table to aid screen readers to view the information
 
 ___
 
@@ -284,11 +287,11 @@ On larger devices, the text moves to the left of the table, and the table expand
 ![table-desktop](assets/images/readme/table-desktop.png)
 
 - **Gallery section**
-- 
+ 
 This section provides 12 photos which include a range of ages, genders, abilities and classes. Set as grid, the images are all the same size. They are responsive to the device and will change how many images are on a row depending on the device size.
  
 ![Gallery-mobile](assets/images/readme/gallery-mobile.png)
-![Gallery-desktop](assets/images/readme/gallery-mobile.png)
+![Gallery-desktop](assets/images/readme/gallery-desktop.png)
 
 
 
@@ -311,15 +314,16 @@ The Footer contains the links to the social media - these are all active. It als
 
 ### Signup form processing
 
-Currently, on submission of the Sign-Up form, the data goes to the form dump, so the input is not being processed or stored. With the knowledge of SQL and Python, the input could be stored, processed, analysed and used to provide the user with a personalised quality experience.
+Currently, once the form on the Sign Up page is completed, it takes you to a thank you page. The data is not being processed or stored. This is also due to it being a fictional company. However, the data would ideally be stored, processed and analysed. Using this, online booking could be made with instant feedback, instead of having to wait for an e-mail response. This would make it more efficient for the compnay, and provide a more efficient and personalised quality experience for the user. 
 
 ### Popup preview of Google Maps
 
-Currently, on the Meetups page, the location link leads the user to Google Maps. By including JS we could provide the user with the necessary information in a popup window without leaving the website.
+In the wireframes, googlemaps was intetend to be placed in the footer. This was removed as I felt it would have been too large. This could be used in the About Us page, or as a pop up feature when the address in the footer is clicked on/hovered over.
 
-### Gallery aggregated from social media by hashtag
+### Accessibility
 
-Currently, the website does not have any gallery. The heart of Sofing is people, so having a gallery block on the Home page aggregated from social media might be a glorious live representation of the movement.
+Whilst the lighthouse checks rated the accessibily in the 90's, there is still room for improvement. One of the suggestions was that background and foreground colours do not have sufficent contrast ratio. Therefore, I would intend on experimenting with changing these to improve this contrast futher whist still maintaining the colour scheme.
+I would use the site I found at the end of my project, Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/)to improve access for those with colour-blindness.
 
 ___
 
@@ -327,21 +331,18 @@ ___
 
 - HTML to accomplish the structure of the website.
 - CSS to style the website.
-- [Gitpod](https://gitpod.io/) IDE to develop the website.
-- [GitHub](https://GitHub.com/) to host the source code and GitHub Pages to deploy and host the live site.
-- Git to provide version control (to commit and push code to the repository).
-- [FontAwesome](https://fontawesome.com/) v5.15.1 Icons.
-- [Google Fonts](https://fonts.google.com/) for typography.
-- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) for debugging, inspecting pages' elements and testing layout.
-- [CloudConvert](https://cloudconvert.com/webp-converter) to optimise images to reduce storage and enhance the website performance.
-- [TinyJPG](https://tinyjpg.com/) to optimise images for readme.
-- [Favicon.cc](https://www.favicon.cc/) to create the website favicon.
-- [Coolors](https://coolors.co/image-picker) to source colour palette from image.
-- [Balsamiq](https://balsamiq.com/wireframes/) to design wireframes.
-- [Techsini](https://tecnisih.com) to create the Mockup image in this README.
-- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) to assess accessibility.
-- [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) to assess screen-reader accessibility.
-- Toptal [Colorfilter](https://www.toptal.com/designers/colorfilter/) to assess colour-blind accessibility.
+- Balsamiq - Used to create the wireframes
+- Git - For version control.
+- Github - To save and store the files for the website
+- Gitpod - IDE to develop the wesbsite
+- Google Fonts - To import the fonts used on the wesbite
+- Font Awesome - For the inconography on the wesbite. v5.15.1 Icons.
+- Google Dev Tools - To troubleshoot, debugging, inspecting page's elements, testing responsiveness and solvingiissues with responsiveness and styling.
+- Paint - To crop images
+- CloudConverter and Pixelied - to optomise larger images to reduce the storage and enhance wesbite performance 
+- Favicon - to create the website favicon.
+- Colorhunt - to source colour palette
+- Google Chrome's Lighthouse - to access preformance and accesibility
 - [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 - [Markdown Tables Generator](https://www.tablesgenerator.com/) to generate tables for the readme file.
