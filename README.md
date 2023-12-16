@@ -49,9 +49,6 @@ ___
 ### All users
 
 - All users want to be able to confortably view and access the wesbite on different devices.
-- Active tags have been added to menus to allow screen readers to see which page is currently open.
-- Aria labels have been added on all images across the site to provide information to screen readers.
-- Scope labels have been used on the table to aid screen readers to view the information
 
 ___
 
@@ -201,6 +198,12 @@ Through the exploration of the [fontpair wesbite](https://www.fontpair.co/) the 
 ### Images
 
 The images in this project were sourced from [pexels](https://www.pexels.com/).All images on this website are free stockp hotos which are royalty free. The images were selected as they showed individuals doing yoga and different yoga classes. The studios in the image linked with the ethos and theme I was trying to create. The colours also correlated with the colour palette used. 
+
+### Accessibility
+
+- Active tags have been added to menus to allow screen readers to see which page is currently open.
+- Aria labels have been added on all images across the site to provide information to screen readers.
+- Scope labels have been used on the table to aid screen readers to view the information
 
 ### Visual Effects
 
@@ -356,7 +359,28 @@ ___
 
 # Testing
 
-Testing was ongoing throught the entire build. Google Chrome Developer Dev tools was utilised to pinpoint and troubleshoot any issues.
+Testing was ongoing throught the entire build. Google Chrome Developer Dev tools was utilised to pinpoint and troubleshoot any issues. Every page was viewed on Dev Tools to check responsivity on different devices. The site was also trialled on a number of browsers (Google chrome, safari, Mozilla)
+
+# User Stories
+| Expectations                              | realisations                      |
+|-------------------------------------------|-----------------------------------| 
+|**As a first time user**                   |                                   |
+| I want to navigate the site easily        | The sticky nav bar allows the user to easily navigate on all devices and pages|
+| I want to know where the studio is        | The hero image on the home page states it's in Richmond, London. The footer on all pages gives the exact address of the studio. |
+|I want to know what types of yoga are offered and which one would suit me. | The home page has the 8 types of yoga offered. It gives a brief over view of what it is, who it is suitable for. The 3 event classes are explained on the home page. |
+| I want to know the cost of the classes. | The price for individual classes and membership is stated on the About-Us page |
+| I want to know when the classes are offered to see which one would suit me | The times of the classes are in a clear table on the About us page. |
+| I want to know what things I need to bring | The about us page states the equipment the studio provides. It says you only need to bring water and a towel.|
+| I want to be able to contact the studio. | Address, e-mail and phone number are on the footer of every page. The Sign up page allows for enquiries to be made. |
+|**As a returning and frequent user**                   |                                   |
+|I want to find I want to find up-to-date information about class times. | The about us page has the class type, the times that class is on, and which days |
+| I want to be able enquire about classes or sign up to classes. | The sign up page has an option to sign up or enquire. There are also contact details on the footer if they prefer to phone |
+| I want to be able to contact the studio | Address, e-mail and phone number are on the footer of every page. The Sign up page allows for enquiries to be made |
+|**All users**                   |                                   |
+| I want to be able to view the wesbite comfortably on my device | Aria tags have been added for screen readers. Contracting backgrounds and fonts have been used to read easily. Responsiveness on device sizes has been added |
+
+
+
 
 # Solved issues
 
@@ -366,7 +390,7 @@ The following issues arose and were solved through testing, tutor meetings, and 
 - The section that the table was in had white space on smaller devices - a div was added around the whole section and overflow: hidden was added.
 - The sign up form was too small - text size was increased, padding added and block element added to the text-input.
 - The text input sections overflowed out of the space, especially on smaller devices. A fiv with flex was added, and text overfolow: hidden.
-- Images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
+- Inital testing on lighthouse raised that images were slowing down performance - images cropped and resized to fit space. Images converted to webp.
 
 
 ## Automated Testing
@@ -393,51 +417,51 @@ CSS Stylesheet was run through CSS Validator. No errors were detected.
 
 Mobile
 
-![Mobile Home](assets/images/readme/lighthouse0-)
+![Mobile Home](assets/images/readme/lighthout-index-mobile.png)
 
 Desktop
 
-![Desktop Home](assets/images/readme/index%20mobile.png)
+![Desktop Home](assets/images/readme/lighthout-index-desktop.png)
 
 **About Us Page**
 
 Mobile
 
-![Mobile Ph](assets/images/readme/about%20us%20mobile.png)
+![Mobile Ph](assets/images/readme/lighthout-about-mobile.png)
 
 Desktop
 
-![Desktop Ph](assets/images/readme/about%20us%20desktop.png)
+![Desktop Ph](assets/images/readme/lighthout-gallery-desktop.png)
 
 **Gallery Page**
 
 Mobile
 
-![Mobile Meetups](assets/images/readme/gallery%20mobile.png)
+![Mobile Meetups](assets/images/readme/lighthout-gallery-mobile.png)
 
 Desktop
 
-![Desktop Meetups](assets/images/readme/gallery%20desktop.png)
+![Desktop Meetups](assets/images/readme/lighthout-gallery-desktop.png)
 
 **Signup Page**
 
 Mobile
 
-![Mobile Signup](assets/images/readme/sign%20up%20mobile.png)
+![Mobile Signup](assets/images/readme/lighthout-sign-mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/sign%20up%20desktop.png)
+![Desktop Signup](assets/images/readme/lighthout-sign-desktop.png)
 
 **Thank-you Page**
 
 Mobile
 
-![Mobile Signup](assets/images/readme/thank%20you%20mobile.png)
+![Mobile Signup](assets/images/readme/lighthout-thank-mobile.png)
 
 Desktop
 
-![Desktop Signup](assets/images/readme/thank%20you%20mobile.png)
+![Desktop Signup](assets/images/readme/lighthouse-thank-desktop.png)
 
 ___
 
@@ -445,78 +469,50 @@ ___
 
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
-1. Log into GitHub.
-2. Select `sofing` from the list of repositories.
-3. Select `Settings` From the Repositories sub-headings.
-4. In the left side menu select `Pages` from `Code and automation` section.
-5. Under the `Source` heading in the dropdown menu select `main`.
-6. A second drop-down menu should remain with the default value `/(root)`.
-7. Press `Save`.
-8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
-9. Click on the link to go to the live deployed page.
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Yoga For You.
+3. Click on the Settings from the Repositories sub-headings.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source heading, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. 
+7. A message that the website is ready to be deployed will apprear. Reresh the page and the link to the deployed site will be available.
+8. Your live Github Pages site is now deployed at the URL shown.
 
-The live link can be found [here](https://oks-erm.github.io/sofing).
+The live link can be found [here](https://emilycheatham.github.io/p1_yoga_for_you/).
 
 ## How to run this project Locally
 
 - **Clone the repository**
 
-1. Navigate to the GitHub Repository `oks-erm/sofing`.
-2. Click the `Code` drop-down menu.
-3. Click the `HTTPS` sub-heading under the `Clone` heading.
-4. Copy the link.
-5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
-6. Open a terminal in the directory of your choice, type `git clone` and paste the link.
-7. A clone of the repository will now be created on your machine.
-
-- **Download the repository manually**
-
-1. Navigate to the GitHub Repository `oks-erm/sofing`.
-2. Click the `Code` drop-down menu.
-3. Click `Download ZIP`.
-4. Locate the ZIP file and extract it to a folder where you want the repository to be stored.
-5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
-6. Navigate to the directory where the repository was extracted.
-7. Now you will have the contents of the project available offline on your machine.
-
+1. Log in (or sign up) to GitHub.
+2. Navigate to the GitHub Repository for this project, emilycheatham/p1_yoga_for_you
+3. Click the code drop-down menu. Select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open a terminal in the directory of your choice, type 'git clone' and paste the link from step 3.
+5. A clone of the repository will now be created on your machine.
 ___
 
 # Credits
 
+## Code
+
+ - Tutorials from ![Code Institute's](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) Love Running Project were followed for the Love Project. This was used as a base structure for the design.
+- Hover over images hover effect developed by following ![Web Dev Simplifier](https://www.youtube.com/watch?v=tF3RE5CGt9U)
+
 ## Content
 
-The concept and the text used on the website are produced by me. Little fragments of the text could be found [here](https://www.trendhunter.com/trends/a-new-extreme-sport-sofing), as they were earlier published by my friend Hernando Gomez Salinas. He tried to start it off as a meme, but it took root only in the Spanish speaking community and not for long. I would like to give it a second chance.
+Content for the wesbite was written by the owner Emily Cheatham
+
+Readm.md file was created based on the structure of ![Sofing]<https://github.com/oks-erm/sofing/blob/main/README.md> and ![Bully Book Club Wesbite](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md#Deployment)
 
 ## Media
 
-- hero-image.webp is by @littlehenrabi from [iStock](https://istockphoto.com).
-- training.webp is by @inside-weather from [Unsplash](https://unsplash.com).
-- act1.webp is by Carlos Muchado from [Unsplash](https://unsplash.com).
-- act2.webp is by Franck Boston from [iStock](https://istockphoto.com).
-- act3.webp is by @4x6 from [iStock](https://istockphoto.com).
-- signup-section.webp is by Paul Weaver from [Unsplash](https://unsplash.com).
-- signup.webp is by Alexis Antoine from [Unsplash](https://unsplash.com).
-- meetups.webp is by Ben Lambert from [Unsplash](https://unsplash.com).
-- philosofy.webp is by Guven Gunes from [Unsplash](https://unsplash.com).
-- philosofy1.webp is by Logan Cameron from [Unsplash](https://unsplash.com).
-- philosofy2.webp is by Juan Gomez from [Unsplash](https://unsplash.com).
-- philosofy3.webp is by Alina Levkovich from [Unsplash](https://unsplash.com).
-- favicon.ico was created by me.
-
-## Code
-
-- Implementation of Flexbox and Grid was assisted by [CSS Tricks](https://css-tricks.com).
-- Code snippets for iplementation of "hamburger menu" were taken from [here](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) and [here](https://codepen.io/erikterwan/pen/EVzeRP) and modified.
-- Code snippet for the links hover effect is taken from [CSS Tricks](https://css-tricks.com/css-link-hover-effects/) and modified.
-- Code snippet for the "Choose your country" field is taken from [here](https://www.technicalkeeda.com/html-tutorials/all-countries-drop-down-list-in-html).
-- Code snippet for the speech bubble was taken from [here](https://freefrontend.com/css-speech-bubbles/) and modified.
-- Code snippet for the gradient effect for text was taken from [CSS Tricks](https://css-tricks.com/snippets/css/gradient-text/) and modified.
-- Guidance on HTML attributes and common conventions were obtained from [W3Schools](https://www.w3schools.com/) and [Mozilla's Web Documentation](https://developer.mozilla.org/en-US/).
-- Understanding of shadows was obtained from [W3Schools](https://www.w3schools.com/).
+- All images were taken from [pexels](https://www.pexels.com/).
 
 ## Acknowledgements
 
-I would like to thank my mentor, Ronan McClelland, for his guidance, moral support, inspiration, invaluable advice and sense of humour.
+I would like to thank my mentor, Ronan McClelland, for his valuable guidance and support through the project.
 
-Thanks to Slack Community for answering all my questions before I asked them.
+I would like to thank Craig Hudson for helping me realise there was an issue with my port.
+
+I would like to thank the Slack community for answering questions before I even had them. And especailly Kellie who took the time to peer review my project, picking up on spelling issues and pointing me in the direction of a good ReadMe.md structure.
 ___
