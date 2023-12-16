@@ -353,31 +353,17 @@ ___
 
 # Testing
 
-## User Story Testing
+Testing was ongoing throught the entire build. Google Chrome Developer Dev tools was utilised to pinpoint and troubleshoot any issues.
 
-| Expectations                                                                                 | Realisation                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **As a first time user:**                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| I want to easily understand the main purpose <br>of the site and learn more about the topic. | 1. On the Home Page, the user is presented with a logo, <br>a meaningful hero image, conveying the ethos, and selling <br>points, with relevant icons, on the first screen.<br><br>2. The Home page provides a complete overview of the topic: <br><br>each page of the website is represented by its own block and <br>ethos block appears on the second screen and includes a CTA <br>button, that invites the user to learn more.  |
-| I want to be able to easily navigate <br>and find content.                                   | 1. The sticky Navbar allows the user to easily navigate and<br>reach any point of the website from any other point.<br><br>2. All external links open in a new tab.                                                                                                                                                                                                                                                                  |
-| I want to find ways to join the community <br>and follow the movement on social media.       | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Footer contains the links to the social media and <br>allows the user to continue engagement with the movement <br>on various platforms.                                                                                                                                                                                |
-| I want to be amused.                                                                         | 1. The imagery helps to achieve a comical effect from first<br>sight.<br><br>2. The text content is absurd and unexpected.<br><br>3. The website has "an easter egg" to make the user smile<br>and surprise them.                                                                                                                                                                                                                    |
-| **As a returning and frequent user:**                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| I want to find up-to-date information <br>about events and meetings.                         | 1. The Meetups page provides up-to-date information about <br>local meetups and practice sessions and allows the user to <br>contact local representatives via phone call.                                                                                                                                                                                                                                                           |
-| I want to contact the movement <br>to request additional information.                    | 1. The Footer contains the links to the social media to contact<br>the movement there.<br><br>2. The Meetups page includes phone numbers of local <br><br>representatives.                                                                                                                                                                                                                                                       |
-| I want to join the community.                                                                | 1. The Signup section of the Home page and the Signup page<br>allow the user to join the club.<br><br>2. The Activities section on the Home page includes information<br>about available activities and links to continue engagement<br>on different platforms.                                                                                                                                                                      |
-| I want to find information about training <br>programs and self-development in the field.    | 1. The Training section of the Home page and the Training link <br>of the Navbar inform about the availability of training programs and<br>lead to the Bootcamp Website.                                                                                                                                                                                                                                                                 |
-| **All users:**                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| want to be able to access and comfortably <br>view the website on mobile devices.            | 1. The website is fully responsive on all screen sizes and <br>resolutions starting from 350px.<br><br>2. Mobile performance is considered by providing lighter images<br>for the mobile version.<br><br>3. The website is designed following the mobile-first approach<br>to ensure that mobile users receive quality, not reduced<br>experience.                                                                                |
+# Solved issues
 
-## Feature Testing
+The following issues arose and were solved through testing, tutor meetings, and peer advice.
 
-All Features were tested manually, find the results below.
-The website was tested in three browsers: Chrome, Firefox and Safari on Desktops, tablets and multiple mobile devices (macOS and Android).
+- The table was too large and was overflowing into white space - a overflow-x scroll bar was added. 
+- The section that the table was in had white space on smaller devices - a div was added around the whole section and overflow: hidden was added.
+- The sign up form was too small - text size was increased, padding added and block element added to the text-input.
+- The text input sections overflowed out of the space, especially on smaller devices. A fiv with flex was added, and text overfolow: hidden.
 
-![Features_testing](assets/images/readme/features_testing.png)
-
-Testing results: [Excel](assets/testing_doc/features_testing.xlsx), [Numbers MacOS](assets/testing_doc/feature_testing.numbers).
 
 ## Automated Testing
 
@@ -385,9 +371,17 @@ Testing results: [Excel](assets/testing_doc/features_testing.xlsx), [Numbers Mac
 
 All pages were run through HTML Validator. No errors were detected.
 
-2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+- [Home Page HTML](assets/images/readme/IndexHTML.png)
+- [About Us Page HTML](assets/images/readme/AboutUSHTML.png)
+- [Gallery Page HTML](assets/images/readme/GalleryHTML.png)
+- [Sign Up HTML](assets/images/readme/SignupHTML.png)
+- [Thank You Page HTML](assets/images/readme/thankyouHTML.png)
+
+
+1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
 CSS Stylesheet was run through CSS Validator. No errors were detected.
+- [style.css CSS](assets/images/readme/)
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
@@ -401,7 +395,7 @@ Desktop
 
 ![Desktop Home](assets/images/readme/lighth-home-desktop.png)
 
-**Philosofy Page**
+**About Us Page**
 
 Mobile
 
@@ -411,7 +405,7 @@ Desktop
 
 ![Desktop Ph](assets/images/readme/lighth-phil-desktop.png)
 
-**Meetups Page**
+**Gallery Page**
 
 Mobile
 
@@ -422,6 +416,16 @@ Desktop
 ![Desktop Meetups](assets/images/readme/lighth-meetups-desktop.png)
 
 **Signup Page**
+
+Mobile
+
+![Mobile Signup](assets/images/readme/lighth-signup-mobile.png)
+
+Desktop
+
+![Desktop Signup](assets/images/readme/lighth-signup-desktop.png)
+
+**Thank-you Page**
 
 Mobile
 
